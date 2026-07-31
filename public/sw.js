@@ -9,7 +9,7 @@
  *     shows the last known dip list instead of a browser error page.
  */
 
-const CACHE = 'ema-dips-v1';
+const CACHE = 'ema-dips-v2';
 const SHELL = ['./', './index.html', './manifest.webmanifest', './icon-192.png', './icon-512.png'];
 
 self.addEventListener('install', event => {
@@ -55,9 +55,39 @@ self.addEventListener('fetch', event => {
     return;
   }
 
-  if (url.origin === self.location.origin) {
-    event.respondWith(caches.match(req).then(hit => hit || fetch(req)));
+  if (url.origin !== self.location.origin) return;
+
+  // Navigations must be network-first.
+  //
+  // Vite emits hashed bundle filenames, so a cached index.html points at a
+  // bundle that no longer exists after a rebuild — the script 404s and the app
+  // opens to a blank screen. Serving fresh HTML when the network allows keeps
+  // the document and its bundle in step; the cache is only a fallback for
+  // genuinely being offline.
+  if (req.mode === 'navigate') {
+    event.respondWith(
+      fetch(req)
+        .then(resp => {
+          const copy = resp.clone();
+          caches.open(CACHE).then(c => c.put('./index.html', copy)).catch(() => {});
+          return resp;
+        })
+        .catch(() => caches.match('./index.html').then(hit => hit || Response.error())),
+    );
+    return;
   }
+
+  // Hashed assets are immutable, so cache-first is safe and fast. Anything
+  // missing is fetched and added for next time.
+  event.respondWith(
+    caches.match(req).then(hit => hit || fetch(req).then(resp => {
+      if (resp.ok) {
+        const copy = resp.clone();
+        caches.open(CACHE).then(c => c.put(req, copy)).catch(() => {});
+      }
+      return resp;
+    })),
+  );
 });
 
 self.addEventListener('push', event => {

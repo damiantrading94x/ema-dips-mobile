@@ -105,16 +105,35 @@ export async function subscribeToPush(
 
   let sub: PushSubscription;
   try {
+    // Reuse an existing subscription rather than replacing it.
+    //
+    // Unsubscribing first is destructive: it invalidates the endpoint the
+    // server already holds, so if anything after that point fails (a dropped
+    // request, a closed tunnel) the server is left with a registration the
+    // push service now answers 410 for — and the app still looks enabled.
+    // Tapping "Enable" twice was enough to trigger it.
     const existing = await reg.pushManager.getSubscription();
-    // Re-subscribing with a different key silently fails on some browsers,
-    // so drop any stale subscription first.
-    if (existing) await existing.unsubscribe().catch(() => {});
-    sub = await reg.pushManager.subscribe({
-      userVisibleOnly: true,
-      applicationServerKey: urlBase64ToUint8Array(publicKey) as unknown as BufferSource,
-    });
+    if (existing) {
+      sub = existing;
+    } else {
+      sub = await reg.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: urlBase64ToUint8Array(publicKey) as unknown as BufferSource,
+      });
+    }
   } catch (err: any) {
-    return { ok: false, error: `Subscribe failed: ${err.message}` };
+    // A key mismatch (InvalidStateError) is the one case that genuinely needs a
+    // fresh subscription, so only then do we discard the old one.
+    try {
+      const stale = await reg.pushManager.getSubscription();
+      if (stale) await stale.unsubscribe().catch(() => {});
+      sub = await reg.pushManager.subscribe({
+        userVisibleOnly: true,
+        applicationServerKey: urlBase64ToUint8Array(publicKey) as unknown as BufferSource,
+      });
+    } catch (retryErr: any) {
+      return { ok: false, error: `Subscribe failed: ${retryErr.message || err.message}` };
+    }
   }
 
   try {
