@@ -42,9 +42,9 @@ repo → Settings → Secrets and variables → Actions → *New repository secr
 
 | Secret | Value |
 | --- | --- |
-| `VAPID_PUBLIC_KEY` | `BD0_7DyPI3cdvfTdYtBqdS5nzUbGa-_kQmgUAiBuneobQim2xc23mpcRsB6YqDoD9HcPkzC7s9lzbcxrc3Uy4ZE` |
+| `VAPID_PUBLIC_KEY` | the public half of the keypair (safe to expose; the app fetches it at runtime) |
 | `VAPID_PRIVATE_KEY` | in `Stock-analyzer/server/.env` — **never commit it** |
-| `VAPID_SUBJECT` | `mailto:damianluto@hotmail.com` |
+| `VAPID_SUBJECT` | `mailto:you@example.com` — a contact address the push service can use |
 
 Without these the scanner just skips push and still emails, so a missing secret
 degrades quietly rather than breaking the job.

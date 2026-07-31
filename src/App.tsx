@@ -22,6 +22,16 @@ const LS_CACHE = 'ema_mobile_last_dips';
 
 const DEFAULT_THRESHOLD = 15;
 
+/** Where the currently displayed list came from. */
+type DataSource = 'none' | 'live' | 'published' | 'cached';
+
+const SOURCE_LABEL: Record<DataSource, string> = {
+  none: '',
+  live: 'Updated',
+  published: 'Cloud',
+  cached: 'Cached',
+};
+
 /** Guessing the desktop's LAN address is hopeless, so it's a setting. */
 function loadApiBase(): string {
   try {
@@ -54,7 +64,7 @@ export function App() {
   const [threshold, setThreshold] = useState(loadThreshold);
   const [dips, setDips] = useState<Dip[]>([]);
   const [lastUpdated, setLastUpdated] = useState<string | null>(null);
-  const [offline, setOffline] = useState(false);
+  const [source, setSource] = useState<DataSource>('none');
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [push, setPush] = useState<PushState | null>(null);
@@ -74,56 +84,83 @@ export function App() {
   }, [refreshPushState]);
 
   // ── Dip list ──
-  const fetchDips = useCallback(async (base: string) => {
-    setLoading(true);
-    setError(null);
+
+  /**
+   * Snapshot published next to the app by the cloud scanner, refreshed every
+   * 15 minutes during market hours. Same origin as the app, so it loads
+   * anywhere — abroad, with the laptop off, with no tunnel running.
+   */
+  const SNAPSHOT_URL = './data/latest-dips.json';
+
+  async function fetchJson(url: string, timeoutMs: number): Promise<any> {
     // Without a timeout an unreachable server leaves the request hanging, so
     // the refresh button spins forever and looks like it does nothing. A dead
     // tunnel is the normal case here, not an edge case.
     const controller = new AbortController();
-    const timer = setTimeout(() => controller.abort(), 12000);
+    const timer = setTimeout(() => controller.abort(), timeoutMs);
     try {
-      const resp = await fetch(`${base}/api/push/dips?min=5`, { signal: controller.signal });
+      const resp = await fetch(url, { signal: controller.signal, cache: 'no-store' });
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       // A wrong address usually still returns 200 — some other site's HTML.
       // Parsing that as JSON produces a baffling "Unexpected token '<'", so
       // check the content type and say what's actually wrong instead.
       const contentType = resp.headers.get('content-type') || '';
-      if (!contentType.includes('application/json')) {
-        throw new Error('that address is not the Stock Analyzer server');
-      }
-      const json = await resp.json();
-      setDips(json.stocks || []);
-      setLastUpdated(json.lastUpdated || null);
-      setOffline(false);
-      try { localStorage.setItem(LS_CACHE, JSON.stringify(json)); } catch { /* quota */ }
-      return 'live' as const;
-    } catch (err: any) {
-      const reason = err?.name === 'AbortError'
-        ? 'server did not respond within 12s'
-        : err?.message || 'network error';
-      // Falling back to cache is the normal case abroad — say so plainly rather
-      // than showing an empty list that looks like "no dips".
-      try {
-        const raw = localStorage.getItem(LS_CACHE);
-        if (raw) {
-          const cached = JSON.parse(raw);
-          setDips(cached.stocks || []);
-          setLastUpdated(cached.lastUpdated || null);
-          setOffline(true);
-          setError(null);
-          setLastFailure(reason);
-          return 'cached' as const;
-        }
-      } catch { /* cache unreadable, fall through */ }
-
-      setError(`Can't reach the server — ${reason}. Push alerts still work.`);
-      setLastFailure(reason);
-      return 'failed' as const;
+      if (!contentType.includes('json')) throw new Error('that address did not return JSON');
+      return await resp.json();
     } finally {
       clearTimeout(timer);
-      setLoading(false);
     }
+  }
+
+  const fetchDips = useCallback(async (base: string) => {
+    setLoading(true);
+    setError(null);
+
+    const apply = (json: any, src: DataSource) => {
+      setDips(json.stocks || []);
+      setLastUpdated(json.lastUpdated || null);
+      setSource(src);
+      setLoading(false);
+      try { localStorage.setItem(LS_CACHE, JSON.stringify(json)); } catch { /* quota */ }
+    };
+
+    // 1. The desktop server, when reachable — freshest, and it's your own data.
+    //    Short timeout because there's a good fallback right behind it.
+    let reason = '';
+    try {
+      apply(await fetchJson(`${base}/api/push/dips?min=5`, 6000), 'live');
+      setLastFailure(null);
+      return 'live' as const;
+    } catch (err: any) {
+      reason = err?.name === 'AbortError' ? 'server did not respond' : err?.message || 'network error';
+    }
+
+    // 2. The published snapshot — works with the laptop off.
+    try {
+      apply(await fetchJson(SNAPSHOT_URL, 8000), 'published');
+      setLastFailure(null);
+      return 'published' as const;
+    } catch { /* not published yet, or genuinely offline */ }
+
+    // 3. Whatever this phone downloaded last. Say so plainly rather than
+    //    showing an empty list that looks like "no dips".
+    try {
+      const raw = localStorage.getItem(LS_CACHE);
+      if (raw) {
+        const cached = JSON.parse(raw);
+        setDips(cached.stocks || []);
+        setLastUpdated(cached.lastUpdated || null);
+        setSource('cached');
+        setLastFailure(reason);
+        setLoading(false);
+        return 'cached' as const;
+      }
+    } catch { /* cache unreadable, fall through */ }
+
+    setError(`Can't load the dip list — ${reason}. Push alerts still work.`);
+    setLastFailure(reason);
+    setLoading(false);
+    return 'failed' as const;
   }, []);
 
   useEffect(() => { void fetchDips(apiBase); }, [apiBase, fetchDips]);
@@ -139,9 +176,10 @@ export function App() {
    */
   const handleRefresh = async () => {
     const result = await fetchDips(apiBase);
-    if (result === 'live') showToast('✅ Updated');
-    else if (result === 'cached') showToast('📴 Server unreachable — showing cached list');
-    else showToast('⚠️ Server unreachable');
+    if (result === 'live') showToast('✅ Updated from your laptop');
+    else if (result === 'published') showToast('☁️ Updated from the cloud scanner');
+    else if (result === 'cached') showToast('📴 Offline — showing the last saved list');
+    else showToast('⚠️ Could not load the list');
   };
 
   const handleEnable = async () => {
@@ -210,7 +248,7 @@ export function App() {
           <h1>EMA Dips</h1>
           <div className="sub">
             {lastUpdated
-              ? `${offline ? 'Cached ' : 'Updated '}${new Date(lastUpdated).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`
+              ? `${SOURCE_LABEL[source]} ${new Date(lastUpdated).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`
               : 'No data yet'}
           </div>
         </div>
@@ -222,7 +260,12 @@ export function App() {
         </div>
       </header>
 
-      {offline && (
+      {source === 'published' && (
+        <div className="banner banner-info">
+          ☁️ Live from the cloud scanner — works with your laptop off.
+        </div>
+      )}
+      {source === 'cached' && (
         <div className="banner banner-warn">
           📴 Offline — showing the last list this phone downloaded. Push alerts still arrive.
           {lastFailure && <div className="small muted">({lastFailure})</div>}
