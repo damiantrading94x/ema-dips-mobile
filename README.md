@@ -51,28 +51,24 @@ degrades quietly rather than breaking the job.
 
 ### 2. Serve the app to your phone
 
-Web push requires a **secure context**: HTTPS, or `localhost`. A plain
-`http://192.168.x.x` address will not work — the browser silently refuses to
-subscribe. Pick one:
-
-**Option A — Cloudflare Tunnel (recommended, works anywhere)**
+The app is served by the Stock Analyzer server itself at **`/mobile`**, on the
+same origin as the API. That matters: web push needs HTTPS, and an HTTPS page
+cannot call a plain-`http` LAN address — the browser blocks it as mixed content.
+Sharing one origin means a single tunnel covers both and there is no server
+address to configure.
 
 ```bash
-npm run build
-npx cloudflared tunnel --url http://localhost:5180
+# once, after any change to the app
+cd EMA-Dips-Mobile && npm run build
+
+# terminal 1 — the API + the phone app
+cd Stock-analyzer/server && npm run dev
+
+# terminal 2 — public HTTPS URL
+npx cloudflared tunnel --url http://localhost:3050
 ```
 
-Serves `dist/` over a public HTTPS URL. Open that on the phone.
-
-**Option B — GitHub Pages**
-
-Commit `dist/` to a `gh-pages` branch. Permanent HTTPS URL, no tunnel to keep
-alive. The app uses relative paths, so it works from a project subpath.
-
-**Option C — Chrome port forwarding (USB, for testing)**
-
-`chrome://inspect` → Port forwarding → map `5180` to `localhost:5180`. The phone
-then sees it as `localhost`, which counts as secure.
+Open `https://<tunnel-url>/mobile/` on the phone.
 
 ### 3. Install and enable
 
@@ -96,7 +92,7 @@ then sees it as `localhost`, which counts as secure.
 | Setting | Meaning |
 | --- | --- |
 | **Alert threshold** | How far below EMA12 before this device is notified (5–40%). Stored server-side per device, so two phones can differ. |
-| **Server address** | Your desktop on the LAN, e.g. `http://192.168.1.20:3050`. Only for browsing the list and registering. |
+| **Server address** | Only needed if you serve the app from somewhere other than the API server. Left blank it uses the page's own origin, which is correct for the `/mobile` setup above. |
 
 ---
 
