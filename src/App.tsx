@@ -61,6 +61,7 @@ export function App() {
   const [busy, setBusy] = useState(false);
   const [toast, setToast] = useState<string | null>(null);
   const [showSettings, setShowSettings] = useState(false);
+  const [lastFailure, setLastFailure] = useState<string | null>(null);
 
   // ── Push state ──
   const refreshPushState = useCallback(async () => {
@@ -76,8 +77,13 @@ export function App() {
   const fetchDips = useCallback(async (base: string) => {
     setLoading(true);
     setError(null);
+    // Without a timeout an unreachable server leaves the request hanging, so
+    // the refresh button spins forever and looks like it does nothing. A dead
+    // tunnel is the normal case here, not an edge case.
+    const controller = new AbortController();
+    const timer = setTimeout(() => controller.abort(), 12000);
     try {
-      const resp = await fetch(`${base}/api/push/dips?min=5`);
+      const resp = await fetch(`${base}/api/push/dips?min=5`, { signal: controller.signal });
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       // A wrong address usually still returns 200 — some other site's HTML.
       // Parsing that as JSON produces a baffling "Unexpected token '<'", so
@@ -91,7 +97,11 @@ export function App() {
       setLastUpdated(json.lastUpdated || null);
       setOffline(false);
       try { localStorage.setItem(LS_CACHE, JSON.stringify(json)); } catch { /* quota */ }
+      return 'live' as const;
     } catch (err: any) {
+      const reason = err?.name === 'AbortError'
+        ? 'server did not respond within 12s'
+        : err?.message || 'network error';
       // Falling back to cache is the normal case abroad — say so plainly rather
       // than showing an empty list that looks like "no dips".
       try {
@@ -102,23 +112,36 @@ export function App() {
           setLastUpdated(cached.lastUpdated || null);
           setOffline(true);
           setError(null);
-        } else {
-          setError(`Can't reach the server — ${err.message}. Set the address in ⚙. Push alerts work regardless.`);
-          setShowSettings(true);
+          setLastFailure(reason);
+          return 'cached' as const;
         }
-      } catch {
-        setError(`Can't reach the server — ${err.message}.`);
-      }
+      } catch { /* cache unreadable, fall through */ }
+
+      setError(`Can't reach the server — ${reason}. Push alerts still work.`);
+      setLastFailure(reason);
+      return 'failed' as const;
     } finally {
+      clearTimeout(timer);
       setLoading(false);
     }
   }, []);
 
-  useEffect(() => { fetchDips(apiBase); }, [apiBase, fetchDips]);
+  useEffect(() => { void fetchDips(apiBase); }, [apiBase, fetchDips]);
 
   const showToast = (msg: string) => {
     setToast(msg);
     setTimeout(() => setToast(null), 4000);
+  };
+
+  /**
+   * Manual refresh always says what happened. Silently falling back to cache
+   * makes the button look broken — which is exactly how a dead tunnel felt.
+   */
+  const handleRefresh = async () => {
+    const result = await fetchDips(apiBase);
+    if (result === 'live') showToast('✅ Updated');
+    else if (result === 'cached') showToast('📴 Server unreachable — showing cached list');
+    else showToast('⚠️ Server unreachable');
   };
 
   const handleEnable = async () => {
@@ -141,15 +164,20 @@ export function App() {
   const handleTest = async () => {
     setBusy(true);
     try {
+      const controller = new AbortController();
+      const timer = setTimeout(() => controller.abort(), 12000);
       const resp = await fetch(`${apiBase}/api/push/test`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ endpoint: push?.endpoint }),
-      });
+        signal: controller.signal,
+      }).finally(() => clearTimeout(timer));
       const json = await resp.json();
       showToast(json.success ? '📨 Test sent — check your notifications' : `⚠️ ${json.error}`);
     } catch (err: any) {
-      showToast(`⚠️ ${err.message}`);
+      showToast(err?.name === 'AbortError'
+        ? '⚠️ Server did not respond — is the tunnel running?'
+        : `⚠️ ${err.message}`);
     } finally {
       setBusy(false);
     }
@@ -187,7 +215,7 @@ export function App() {
           </div>
         </div>
         <div className="header-actions">
-          <button className="icon-btn" onClick={() => fetchDips(apiBase)} disabled={loading} aria-label="Refresh">
+          <button className="icon-btn" onClick={handleRefresh} disabled={loading} aria-label="Refresh">
             {loading ? '…' : '↻'}
           </button>
           <button className="icon-btn" onClick={() => setShowSettings(s => !s)} aria-label="Settings">⚙</button>
@@ -197,6 +225,7 @@ export function App() {
       {offline && (
         <div className="banner banner-warn">
           📴 Offline — showing the last list this phone downloaded. Push alerts still arrive.
+          {lastFailure && <div className="small muted">({lastFailure})</div>}
         </div>
       )}
       {error && <div className="banner banner-error">{error}</div>}
