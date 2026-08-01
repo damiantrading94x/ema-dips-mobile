@@ -73,7 +73,7 @@ export async function subscribeToPush(
   apiBase: string,
   thresholdPct: number,
   label: string,
-): Promise<{ ok: boolean; error?: string; endpoint?: string }> {
+): Promise<{ ok: boolean; error?: string; endpoint?: string; needsServerAddress?: boolean }> {
   if (!isPushSupported()) return { ok: false, error: 'Push is not supported in this browser.' };
   if (!window.isSecureContext) {
     return { ok: false, error: 'Push requires HTTPS (or localhost). See the README for the LAN setup.' };
@@ -93,14 +93,22 @@ export async function subscribeToPush(
   if (!reg) return { ok: false, error: 'Service worker could not be registered.' };
   await navigator.serviceWorker.ready;
 
-  let publicKey: string;
+  // The public key is public by design, so it can be baked in at build time.
+  // Asking the server for it first keeps a rotated key working without a
+  // rebuild; the built-in value is the fallback.
+  const BUILT_IN_KEY = import.meta.env.VITE_VAPID_PUBLIC_KEY as string | undefined;
+
+  let publicKey = BUILT_IN_KEY || '';
   try {
-    const resp = await fetch(`${apiBase}/api/push/vapid-public-key`);
+    const resp = await fetch(`${apiBase}/api/push/vapid-public-key`, {
+      signal: AbortSignal.timeout(8000),
+    });
     const json = await resp.json();
-    if (!resp.ok || !json.publicKey) throw new Error(json.error || 'No VAPID key returned');
-    publicKey = json.publicKey;
-  } catch (err: any) {
-    return { ok: false, error: `Could not reach the server: ${err.message}` };
+    if (resp.ok && json.publicKey) publicKey = json.publicKey;
+  } catch { /* fall back to the built-in key */ }
+
+  if (!publicKey) {
+    return { ok: false, error: 'No VAPID key available — is the server reachable?' };
   }
 
   let sub: PushSubscription;
@@ -136,18 +144,31 @@ export async function subscribeToPush(
     }
   }
 
+  // The phone is now subscribed with the push service, but the scanner can only
+  // send to it once the server has the endpoint on file. This is the one step
+  // that genuinely needs the desktop reachable.
   try {
     const resp = await fetch(`${apiBase}/api/push/subscribe`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ subscription: sub.toJSON(), thresholdPct, label }),
+      signal: AbortSignal.timeout(10000),
     });
     if (!resp.ok) {
       const json = await resp.json().catch(() => ({}));
       throw new Error(json.error || `HTTP ${resp.status}`);
     }
   } catch (err: any) {
-    return { ok: false, error: `Server rejected the subscription: ${err.message}` };
+    const sameOrigin = apiBase === window.location.origin;
+    return {
+      ok: false,
+      needsServerAddress: sameOrigin,
+      error: sameOrigin
+        // Served from GitHub Pages: there is no API on this origin, so the
+        // address of the desktop server has to be supplied once.
+        ? 'Registration has to reach your laptop once. Start the server and the tunnel, then paste the tunnel URL into Server address below.'
+        : `Could not reach ${apiBase} — ${err?.name === 'TimeoutError' ? 'no response' : err.message}. Is the server and tunnel running?`,
+    };
   }
 
   return { ok: true, endpoint: sub.endpoint };

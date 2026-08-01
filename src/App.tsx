@@ -188,6 +188,8 @@ export function App() {
     const result = await subscribeToPush(apiBase, threshold, label);
     setBusy(false);
     await refreshPushState();
+    // Surface the field they need rather than making them hunt for the gear.
+    if (result.needsServerAddress) setShowSettings(true);
     showToast(result.ok ? '✅ Alerts enabled on this device' : `⚠️ ${result.error}`);
   };
 
