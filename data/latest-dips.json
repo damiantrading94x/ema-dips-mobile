@@ -3,116 +3,116 @@
     {
       "ticker": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 146.95,
-      "ema12": 172.38,
-      "pct": -14.75,
+      "price": 147,
+      "ema12": 172.39,
+      "pct": -14.73,
       "bucket": "10-15%"
     },
     {
       "ticker": "FICO",
       "name": "Fair Isaac Corporation",
-      "price": 1040.69,
-      "ema12": 1203.03,
-      "pct": -13.49,
-      "bucket": "10-15%"
-    },
-    {
-      "ticker": "LII",
-      "name": "Lennox International, Inc.",
-      "price": 427.87,
-      "ema12": 484.67,
-      "pct": -11.72,
+      "price": 1046.23,
+      "ema12": 1203.88,
+      "pct": -13.1,
       "bucket": "10-15%"
     },
     {
       "ticker": "NXPI",
       "name": "NXP Semiconductors N.V.",
-      "price": 224.8,
-      "ema12": 253.54,
-      "pct": -11.34,
+      "price": 224.17,
+      "ema12": 253.44,
+      "pct": -11.55,
       "bucket": "10-15%"
     },
     {
       "ticker": "CTVA",
       "name": "Corteva, Inc.",
-      "price": 76.49,
-      "ema12": 85.04,
-      "pct": -10.06,
+      "price": 76.04,
+      "ema12": 84.97,
+      "pct": -10.51,
+      "bucket": "10-15%"
+    },
+    {
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 435.05,
+      "ema12": 485.78,
+      "pct": -10.44,
       "bucket": "10-15%"
     },
     {
       "ticker": "RDDT",
       "name": "Reddit, Inc.",
-      "price": 154.57,
-      "ema12": 170.74,
-      "pct": -9.47,
+      "price": 154.7,
+      "ema12": 170.76,
+      "pct": -9.41,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "COIN",
+      "name": "Coinbase Global, Inc.",
+      "price": 146.5,
+      "ema12": 158.44,
+      "pct": -7.53,
       "bucket": "5-10%"
     },
     {
       "ticker": "KLAC",
       "name": "KLA Corporation",
-      "price": 181.36,
-      "ema12": 196.91,
-      "pct": -7.9,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "QCOM",
-      "name": "QUALCOMM Incorporated",
-      "price": 150.49,
-      "ema12": 162.35,
-      "pct": -7.31,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies ",
-      "price": 110.11,
-      "ema12": 117.94,
-      "pct": -6.64,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "MAR",
-      "name": "Marriott International",
-      "price": 347.35,
-      "ema12": 370.49,
-      "pct": -6.25,
+      "price": 182.75,
+      "ema12": 197.13,
+      "pct": -7.29,
       "bucket": "5-10%"
     },
     {
       "ticker": "EIX",
       "name": "Edison International",
-      "price": 72.06,
-      "ema12": 76.75,
-      "pct": -6.11,
+      "price": 71.46,
+      "ema12": 76.66,
+      "pct": -6.78,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "QCOM",
+      "name": "QUALCOMM Incorporated",
+      "price": 151.57,
+      "ema12": 162.52,
+      "pct": -6.74,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "MAR",
+      "name": "Marriott International",
+      "price": 346.83,
+      "ema12": 370.41,
+      "pct": -6.37,
       "bucket": "5-10%"
     },
     {
       "ticker": "BG",
       "name": "Bunge Limited",
-      "price": 106.13,
-      "ema12": 112.53,
-      "pct": -5.69,
+      "price": 105.41,
+      "ema12": 112.42,
+      "pct": -6.24,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "ON",
+      "name": "ON Semiconductor Corporation",
+      "price": 80.4,
+      "ema12": 85.67,
+      "pct": -6.16,
       "bucket": "5-10%"
     },
     {
       "ticker": "AAPL",
       "name": "Apple Inc.",
-      "price": 306.26,
-      "ema12": 323.45,
-      "pct": -5.31,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "ODFL",
-      "name": "Old Dominion Freight Line, Inc.",
-      "price": 210.59,
-      "ema12": 221.7,
-      "pct": -5.01,
+      "price": 303.42,
+      "ema12": 323.01,
+      "pct": -6.07,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-03T18:16:46.493Z",
+  "lastUpdated": "2026-08-03T20:11:30.689Z",
   "source": "github-actions"
 }
