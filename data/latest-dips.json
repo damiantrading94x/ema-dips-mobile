@@ -3,140 +3,140 @@
     {
       "ticker": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 146.94,
-      "ema12": 172.38,
-      "pct": -14.76,
-      "bucket": "10-15%"
+      "price": 146.31,
+      "ema12": 172.28,
+      "pct": -15.08,
+      "bucket": "15-20%"
     },
     {
       "ticker": "FICO",
       "name": "Fair Isaac Corporation",
-      "price": 1042.62,
-      "ema12": 1203.32,
-      "pct": -13.36,
-      "bucket": "10-15%"
-    },
-    {
-      "ticker": "LII",
-      "name": "Lennox International, Inc.",
-      "price": 424.71,
-      "ema12": 484.19,
-      "pct": -12.28,
+      "price": 1043.85,
+      "ema12": 1203.51,
+      "pct": -13.27,
       "bucket": "10-15%"
     },
     {
       "ticker": "NXPI",
       "name": "NXP Semiconductors N.V.",
-      "price": 222.19,
-      "ema12": 253.14,
-      "pct": -12.23,
+      "price": 221.71,
+      "ema12": 253.06,
+      "pct": -12.39,
+      "bucket": "10-15%"
+    },
+    {
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 424.74,
+      "ema12": 484.19,
+      "pct": -12.28,
       "bucket": "10-15%"
     },
     {
       "ticker": "RDDT",
       "name": "Reddit, Inc.",
-      "price": 151.8,
-      "ema12": 170.32,
-      "pct": -10.87,
+      "price": 152.09,
+      "ema12": 170.36,
+      "pct": -10.73,
       "bucket": "10-15%"
     },
     {
       "ticker": "CTVA",
       "name": "Corteva, Inc.",
-      "price": 77.83,
-      "ema12": 85.25,
-      "pct": -8.71,
+      "price": 77.78,
+      "ema12": 85.24,
+      "pct": -8.75,
       "bucket": "5-10%"
     },
     {
       "ticker": "KLAC",
       "name": "KLA Corporation",
-      "price": 180.26,
-      "ema12": 196.74,
-      "pct": -8.38,
+      "price": 180.39,
+      "ema12": 196.76,
+      "pct": -8.32,
       "bucket": "5-10%"
     },
     {
       "ticker": "QCOM",
       "name": "QUALCOMM Incorporated",
-      "price": 149.4,
-      "ema12": 162.19,
-      "pct": -7.88,
+      "price": 149.48,
+      "ema12": 162.2,
+      "pct": -7.84,
       "bucket": "5-10%"
     },
     {
       "ticker": "MAR",
       "name": "Marriott International",
-      "price": 346.01,
-      "ema12": 370.28,
-      "pct": -6.55,
+      "price": 346.14,
+      "ema12": 370.3,
+      "pct": -6.52,
       "bucket": "5-10%"
     },
     {
       "ticker": "SKHY",
       "name": "SK hynix Inc.",
-      "price": 139.59,
-      "ema12": 149.26,
-      "pct": -6.48,
+      "price": 139.7,
+      "ema12": 149.28,
+      "pct": -6.41,
       "bucket": "5-10%"
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corporation",
-      "price": 1258.6,
-      "ema12": 1344.68,
-      "pct": -6.4,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "MU",
-      "name": "Micron Technology, Inc.",
-      "price": 815.9,
-      "ema12": 869.73,
-      "pct": -6.19,
+      "price": 1260.69,
+      "ema12": 1345,
+      "pct": -6.27,
       "bucket": "5-10%"
     },
     {
       "ticker": "COIN",
       "name": "Coinbase Global, Inc.",
-      "price": 149.27,
-      "ema12": 158.86,
-      "pct": -6.04,
+      "price": 148.94,
+      "ema12": 158.81,
+      "pct": -6.22,
       "bucket": "5-10%"
     },
     {
-      "ticker": "AAPL",
-      "name": "Apple Inc.",
-      "price": 304.03,
-      "ema12": 323.1,
-      "pct": -5.9,
+      "ticker": "MU",
+      "name": "Micron Technology, Inc.",
+      "price": 817.88,
+      "ema12": 870.03,
+      "pct": -5.99,
       "bucket": "5-10%"
     },
     {
       "ticker": "EIX",
       "name": "Edison International",
-      "price": 72.25,
-      "ema12": 76.78,
-      "pct": -5.9,
+      "price": 72.22,
+      "ema12": 76.77,
+      "pct": -5.94,
       "bucket": "5-10%"
     },
     {
       "ticker": "BG",
       "name": "Bunge Limited",
-      "price": 105.94,
+      "price": 105.89,
       "ema12": 112.5,
-      "pct": -5.83,
+      "pct": -5.88,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "price": 304.44,
+      "ema12": 323.17,
+      "pct": -5.8,
       "bucket": "5-10%"
     },
     {
       "ticker": "SPCX",
       "name": "Space Exploration Technologies ",
-      "price": 111.75,
-      "ema12": 118.19,
-      "pct": -5.45,
+      "price": 111.61,
+      "ema12": 118.17,
+      "pct": -5.55,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-03T16:03:46.807Z",
+  "lastUpdated": "2026-08-03T16:07:39.412Z",
   "source": "github-actions"
 }
