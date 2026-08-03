@@ -50,6 +50,21 @@ function loadThreshold(): number {
   return DEFAULT_THRESHOLD;
 }
 
+function fmtClock(iso: string | Date): string {
+  const d = typeof iso === 'string' ? new Date(iso) : iso;
+  return d.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+}
+
+/** "just now" / "4m ago" / "2h ago" — how stale the underlying scan is. */
+function ageLabel(iso: string): string {
+  const mins = Math.floor((Date.now() - new Date(iso).getTime()) / 60000);
+  if (mins < 1) return 'just now';
+  if (mins < 60) return `${mins}m ago`;
+  const hrs = Math.floor(mins / 60);
+  if (hrs < 24) return `${hrs}h ago`;
+  return `${Math.floor(hrs / 24)}d ago`;
+}
+
 function bucketTone(pct: number): string {
   const a = Math.abs(pct);
   if (a >= 25) return 'crit';
@@ -72,6 +87,11 @@ export function App() {
   const [toast, setToast] = useState<string | null>(null);
   const [showSettings, setShowSettings] = useState(false);
   const [lastFailure, setLastFailure] = useState<string | null>(null);
+  // When this phone last succeeded in fetching, as distinct from when the
+  // server last scanned. Conflating the two made refresh look broken: the
+  // server rescans every 5 minutes, so tapping refresh twice inside one window
+  // legitimately returns the same data timestamp.
+  const [checkedAt, setCheckedAt] = useState<Date | null>(null);
 
   // ── Push state ──
   const refreshPushState = useCallback(async () => {
@@ -120,26 +140,28 @@ export function App() {
       setDips(json.stocks || []);
       setLastUpdated(json.lastUpdated || null);
       setSource(src);
+      setCheckedAt(new Date());
       setLoading(false);
       try { localStorage.setItem(LS_CACHE, JSON.stringify(json)); } catch { /* quota */ }
+      return (json.lastUpdated as string | null) ?? null;
     };
 
     // 1. The desktop server, when reachable — freshest, and it's your own data.
     //    Short timeout because there's a good fallback right behind it.
     let reason = '';
     try {
-      apply(await fetchJson(`${base}/api/push/dips?min=5`, 6000), 'live');
+      const stamp = apply(await fetchJson(`${base}/api/push/dips?min=5`, 6000), 'live');
       setLastFailure(null);
-      return 'live' as const;
+      return { source: 'live' as const, lastUpdated: stamp };
     } catch (err: any) {
       reason = err?.name === 'AbortError' ? 'server did not respond' : err?.message || 'network error';
     }
 
     // 2. The published snapshot — works with the laptop off.
     try {
-      apply(await fetchJson(SNAPSHOT_URL, 8000), 'published');
+      const stamp = apply(await fetchJson(SNAPSHOT_URL, 8000), 'published');
       setLastFailure(null);
-      return 'published' as const;
+      return { source: 'published' as const, lastUpdated: stamp };
     } catch { /* not published yet, or genuinely offline */ }
 
     // 3. Whatever this phone downloaded last. Say so plainly rather than
@@ -153,14 +175,14 @@ export function App() {
         setSource('cached');
         setLastFailure(reason);
         setLoading(false);
-        return 'cached' as const;
+        return { source: 'cached' as const, lastUpdated: cached.lastUpdated ?? null };
       }
     } catch { /* cache unreadable, fall through */ }
 
     setError(`Can't load the dip list — ${reason}. Push alerts still work.`);
     setLastFailure(reason);
     setLoading(false);
-    return 'failed' as const;
+    return { source: 'failed' as const, lastUpdated: null };
   }, []);
 
   useEffect(() => { void fetchDips(apiBase); }, [apiBase, fetchDips]);
@@ -175,11 +197,22 @@ export function App() {
    * makes the button look broken — which is exactly how a dead tunnel felt.
    */
   const handleRefresh = async () => {
+    const before = lastUpdated;
     const result = await fetchDips(apiBase);
-    if (result === 'live') showToast('✅ Updated from your laptop');
-    else if (result === 'published') showToast('☁️ Updated from the cloud scanner');
-    else if (result === 'cached') showToast('📴 Offline — showing the last saved list');
-    else showToast('⚠️ Could not load the list');
+    if (result.source === 'failed') { showToast('⚠️ Could not load the list'); return; }
+    if (result.source === 'cached') { showToast('📴 Offline — showing the last saved list'); return; }
+
+    const where = result.source === 'live' ? 'your laptop' : 'the cloud scanner';
+    // Compare against the timestamp the fetch actually returned. Reading
+    // `lastUpdated` here would just re-read the pre-fetch value from this
+    // render's closure and always look unchanged.
+    if (before && result.lastUpdated === before) {
+      showToast(`✅ Already current — ${where} last scanned ${fmtClock(before)}`);
+    } else if (result.lastUpdated) {
+      showToast(`✅ New data · scanned ${fmtClock(result.lastUpdated)}`);
+    } else {
+      showToast(`✅ Updated from ${where}`);
+    }
   };
 
   const handleEnable = async () => {
@@ -250,9 +283,14 @@ export function App() {
           <h1>EMA Dips</h1>
           <div className="sub">
             {lastUpdated
-              ? `${SOURCE_LABEL[source]} ${new Date(lastUpdated).toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' })}`
+              ? `${SOURCE_LABEL[source]} ${fmtClock(lastUpdated)} · ${ageLabel(lastUpdated)}`
               : 'No data yet'}
           </div>
+          {checkedAt && (
+            <div className="sub" style={{ opacity: 0.65 }}>
+              checked {checkedAt.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', second: '2-digit' })}
+            </div>
+          )}
         </div>
         <div className="header-actions">
           <button className="icon-btn" onClick={handleRefresh} disabled={loading} aria-label="Refresh">
