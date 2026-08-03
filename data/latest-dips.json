@@ -1,190 +1,150 @@
 {
   "stocks": [
     {
-      "ticker": "RDDT",
-      "name": "Reddit, Inc.",
-      "price": 140.67,
-      "ema12": 168.61,
-      "pct": -16.57,
+      "ticker": "CHRW",
+      "name": "C.H. Robinson Worldwide, Inc.",
+      "price": 146.06,
+      "ema12": 172.25,
+      "pct": -15.2,
       "bucket": "15-20%"
     },
     {
-      "ticker": "CHRW",
-      "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 147.73,
-      "ema12": 172.5,
-      "pct": -14.36,
+      "ticker": "FICO",
+      "name": "Fair Isaac Corporation",
+      "price": 1043.33,
+      "ema12": 1203.43,
+      "pct": -13.3,
+      "bucket": "10-15%"
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit, Inc.",
+      "price": 148.41,
+      "ema12": 169.8,
+      "pct": -12.6,
       "bucket": "10-15%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 415.88,
-      "ema12": 482.83,
-      "pct": -13.87,
-      "bucket": "10-15%"
-    },
-    {
-      "ticker": "GDDY",
-      "name": "GoDaddy Inc.",
-      "price": 82.74,
-      "ema12": 92.08,
-      "pct": -10.14,
+      "price": 423.04,
+      "ema12": 483.93,
+      "pct": -12.58,
       "bucket": "10-15%"
     },
     {
       "ticker": "NXPI",
       "name": "NXP Semiconductors N.V.",
-      "price": 229.16,
-      "ema12": 254.21,
-      "pct": -9.85,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "SNDK",
-      "name": "Sandisk Corporation",
-      "price": 1214.83,
-      "ema12": 1337.94,
-      "pct": -9.2,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "VRT",
-      "name": "Vertiv Holdings, LLC",
-      "price": 241.57,
-      "ema12": 265.59,
-      "pct": -9.04,
-      "bucket": "5-10%"
+      "price": 222.4,
+      "ema12": 253.17,
+      "pct": -12.15,
+      "bucket": "10-15%"
     },
     {
       "ticker": "QCOM",
       "name": "QUALCOMM Incorporated",
-      "price": 147.61,
-      "ema12": 161.91,
-      "pct": -8.83,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "HOOD",
-      "name": "Robinhood Markets, Inc.",
-      "price": 86.56,
-      "ema12": 94.38,
-      "pct": -8.29,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "SPCX",
-      "name": "Space Exploration Technologies ",
-      "price": 108.37,
-      "ema12": 117.67,
-      "pct": -7.91,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CTVA",
-      "name": "Corteva, Inc.",
-      "price": 78.71,
-      "ema12": 85.38,
-      "pct": -7.82,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase Global, Inc.",
-      "price": 146.26,
-      "ema12": 158.4,
-      "pct": -7.66,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "FICO",
-      "name": "Fair Isaac Corporation",
-      "price": 1122.97,
-      "ema12": 1215.69,
-      "pct": -7.63,
+      "price": 147.66,
+      "ema12": 161.92,
+      "pct": -8.81,
       "bucket": "5-10%"
     },
     {
       "ticker": "KLAC",
       "name": "KLA Corporation",
-      "price": 182.82,
-      "ema12": 197.14,
-      "pct": -7.26,
+      "price": 180.28,
+      "ema12": 196.75,
+      "pct": -8.37,
       "bucket": "5-10%"
     },
     {
-      "ticker": "GLW",
-      "name": "Corning Incorporated",
-      "price": 138.25,
-      "ema12": 147.65,
-      "pct": -6.37,
+      "ticker": "CTVA",
+      "name": "Corteva, Inc.",
+      "price": 78.32,
+      "ema12": 85.32,
+      "pct": -8.21,
       "bucket": "5-10%"
     },
     {
-      "ticker": "TSLA",
-      "name": "Tesla, Inc.",
-      "price": 311.21,
-      "ema12": 329.9,
-      "pct": -5.67,
+      "ticker": "COIN",
+      "name": "Coinbase Global, Inc.",
+      "price": 147.29,
+      "ema12": 158.56,
+      "pct": -7.11,
       "bucket": "5-10%"
     },
     {
-      "ticker": "BG",
-      "name": "Bunge Limited",
-      "price": 106.23,
-      "ema12": 112.55,
-      "pct": -5.61,
+      "ticker": "SKHY",
+      "name": "SK hynix Inc.",
+      "price": 138.99,
+      "ema12": 149.17,
+      "pct": -6.83,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corporation",
+      "price": 1252.9,
+      "ema12": 1343.8,
+      "pct": -6.76,
       "bucket": "5-10%"
     },
     {
       "ticker": "MU",
       "name": "Micron Technology, Inc.",
-      "price": 823.03,
-      "ema12": 870.82,
-      "pct": -5.49,
+      "price": 816,
+      "ema12": 869.74,
+      "pct": -6.18,
       "bucket": "5-10%"
     },
     {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource, Inc.",
-      "price": 66.44,
-      "ema12": 70.29,
-      "pct": -5.47,
+      "ticker": "SPCX",
+      "name": "Space Exploration Technologies ",
+      "price": 111.01,
+      "ema12": 118.08,
+      "pct": -5.99,
       "bucket": "5-10%"
     },
     {
-      "ticker": "META",
-      "name": "Meta Platforms, Inc.",
-      "price": 556.71,
-      "ema12": 588.57,
-      "pct": -5.41,
+      "ticker": "BG",
+      "name": "Bunge Limited",
+      "price": 106.28,
+      "ema12": 112.56,
+      "pct": -5.58,
       "bucket": "5-10%"
     },
     {
-      "ticker": "MAS",
-      "name": "Masco Corporation",
-      "price": 71.48,
-      "ema12": 75.52,
-      "pct": -5.35,
+      "ticker": "GDDY",
+      "name": "GoDaddy Inc.",
+      "price": 87.66,
+      "ema12": 92.83,
+      "pct": -5.57,
       "bucket": "5-10%"
     },
     {
-      "ticker": "MRNA",
-      "name": "Moderna, Inc.",
-      "price": 54.82,
-      "ema12": 57.8,
-      "pct": -5.15,
+      "ticker": "AAPL",
+      "name": "Apple Inc.",
+      "price": 305.35,
+      "ema12": 323.31,
+      "pct": -5.56,
       "bucket": "5-10%"
     },
     {
-      "ticker": "ROL",
-      "name": "Rollins, Inc.",
-      "price": 37.97,
-      "ema12": 40,
-      "pct": -5.07,
+      "ticker": "EIX",
+      "name": "Edison International",
+      "price": 72.97,
+      "ema12": 76.89,
+      "pct": -5.1,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "MAR",
+      "name": "Marriott International",
+      "price": 352.33,
+      "ema12": 371.25,
+      "pct": -5.1,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-01T08:02:51.693Z",
+  "lastUpdated": "2026-08-03T14:33:54.954Z",
   "source": "seed"
 }
