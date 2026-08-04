@@ -1,118 +1,102 @@
 {
   "stocks": [
     {
-      "ticker": "CHRW",
-      "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 147,
-      "ema12": 172.39,
-      "pct": -14.73,
+      "ticker": "APTV",
+      "name": "Aptiv PLC",
+      "price": 47.52,
+      "ema12": 56.21,
+      "pct": -15.47,
+      "bucket": "15-20%"
+    },
+    {
+      "ticker": "NRG",
+      "name": "NRG Energy, Inc.",
+      "price": 117.37,
+      "ema12": 132.13,
+      "pct": -11.17,
       "bucket": "10-15%"
     },
     {
       "ticker": "FICO",
       "name": "Fair Isaac Corporation",
-      "price": 1045.46,
-      "ema12": 1203.76,
-      "pct": -13.15,
+      "price": 1053.28,
+      "ema12": 1180.61,
+      "pct": -10.79,
       "bucket": "10-15%"
     },
     {
-      "ticker": "NXPI",
-      "name": "NXP Semiconductors N.V.",
-      "price": 224.17,
-      "ema12": 253.44,
-      "pct": -11.55,
-      "bucket": "10-15%"
+      "ticker": "CHRW",
+      "name": "C.H. Robinson Worldwide, Inc.",
+      "price": 152.73,
+      "ema12": 169.37,
+      "pct": -9.82,
+      "bucket": "5-10%"
     },
     {
       "ticker": "CTVA",
       "name": "Corteva, Inc.",
-      "price": 76.04,
-      "ema12": 84.97,
-      "pct": -10.51,
-      "bucket": "10-15%"
+      "price": 76.74,
+      "ema12": 83.71,
+      "pct": -8.32,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CL=F",
+      "name": "Crude Oil Sep 26",
+      "price": 75.48,
+      "ema12": 81.58,
+      "pct": -7.48,
+      "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 435,
-      "ema12": 485.77,
-      "pct": -10.45,
-      "bucket": "10-15%"
-    },
-    {
-      "ticker": "RDDT",
-      "name": "Reddit, Inc.",
-      "price": 154.71,
-      "ema12": 170.77,
-      "pct": -9.4,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "COIN",
-      "name": "Coinbase Global, Inc.",
-      "price": 146.5,
-      "ema12": 158.44,
-      "pct": -7.53,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "KLAC",
-      "name": "KLA Corporation",
-      "price": 182.75,
-      "ema12": 197.13,
-      "pct": -7.29,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "EIX",
-      "name": "Edison International",
-      "price": 71.46,
-      "ema12": 76.66,
-      "pct": -6.78,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "QCOM",
-      "name": "QUALCOMM Incorporated",
-      "price": 151.57,
-      "ema12": 162.52,
-      "pct": -6.74,
+      "price": 445.19,
+      "ema12": 479.53,
+      "pct": -7.16,
       "bucket": "5-10%"
     },
     {
       "ticker": "MAR",
       "name": "Marriott International",
-      "price": 346.83,
-      "ema12": 370.41,
-      "pct": -6.37,
+      "price": 342.26,
+      "ema12": 366.08,
+      "pct": -6.51,
       "bucket": "5-10%"
     },
     {
-      "ticker": "BG",
-      "name": "Bunge Limited",
-      "price": 105.4,
-      "ema12": 112.42,
-      "pct": -6.25,
+      "ticker": "EIX",
+      "name": "Edison International",
+      "price": 71.77,
+      "ema12": 75.9,
+      "pct": -5.45,
       "bucket": "5-10%"
     },
     {
-      "ticker": "ON",
-      "name": "ON Semiconductor Corporation",
-      "price": 80.4,
-      "ema12": 85.67,
-      "pct": -6.16,
+      "ticker": "GWW",
+      "name": "W.W. Grainger, Inc.",
+      "price": 1286.04,
+      "ema12": 1360.06,
+      "pct": -5.44,
       "bucket": "5-10%"
     },
     {
-      "ticker": "AAPL",
-      "name": "Apple Inc.",
-      "price": 303.42,
-      "ema12": 323.01,
-      "pct": -6.07,
+      "ticker": "NXPI",
+      "name": "NXP Semiconductors N.V.",
+      "price": 237.48,
+      "ema12": 250.99,
+      "pct": -5.38,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit, Inc.",
+      "price": 160.53,
+      "ema12": 169.19,
+      "pct": -5.12,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-03T20:59:29.085Z",
+  "lastUpdated": "2026-08-04T15:56:29.782Z",
   "source": "github-actions"
 }
