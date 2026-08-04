@@ -3,108 +3,108 @@
     {
       "ticker": "APTV",
       "name": "Aptiv PLC",
-      "price": 47.27,
-      "ema12": 56.18,
-      "pct": -15.86,
+      "price": 46.97,
+      "ema12": 56.13,
+      "pct": -16.32,
       "bucket": "15-20%"
     },
     {
       "ticker": "NRG",
       "name": "NRG Energy, Inc.",
-      "price": 117.03,
-      "ema12": 132.08,
-      "pct": -11.4,
+      "price": 115.9,
+      "ema12": 131.91,
+      "pct": -12.14,
       "bucket": "10-15%"
     },
     {
       "ticker": "FICO",
       "name": "Fair Isaac Corporation",
-      "price": 1053.88,
-      "ema12": 1180.7,
-      "pct": -10.74,
+      "price": 1052.19,
+      "ema12": 1180.44,
+      "pct": -10.87,
       "bucket": "10-15%"
     },
     {
       "ticker": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 152.59,
-      "ema12": 169.34,
-      "pct": -9.89,
+      "price": 152.48,
+      "ema12": 169.33,
+      "pct": -9.95,
       "bucket": "5-10%"
     },
     {
       "ticker": "CTVA",
       "name": "Corteva, Inc.",
-      "price": 76.85,
-      "ema12": 83.72,
-      "pct": -8.21,
+      "price": 76.73,
+      "ema12": 83.7,
+      "pct": -8.33,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 444.22,
-      "ema12": 479.38,
-      "pct": -7.33,
+      "price": 444.56,
+      "ema12": 479.43,
+      "pct": -7.27,
       "bucket": "5-10%"
     },
     {
       "ticker": "CL=F",
       "name": "Crude Oil Sep 26",
-      "price": 75.78,
-      "ema12": 81.63,
-      "pct": -7.17,
+      "price": 75.88,
+      "ema12": 81.64,
+      "pct": -7.06,
       "bucket": "5-10%"
     },
     {
       "ticker": "MAR",
       "name": "Marriott International",
-      "price": 341.2,
-      "ema12": 365.91,
-      "pct": -6.75,
+      "price": 341.69,
+      "ema12": 365.99,
+      "pct": -6.64,
       "bucket": "5-10%"
     },
     {
       "ticker": "NXPI",
       "name": "NXP Semiconductors N.V.",
-      "price": 236.93,
-      "ema12": 250.9,
-      "pct": -5.57,
+      "price": 235.73,
+      "ema12": 250.72,
+      "pct": -5.98,
       "bucket": "5-10%"
     },
     {
       "ticker": "RDDT",
       "name": "Reddit, Inc.",
-      "price": 159.99,
-      "ema12": 169.11,
-      "pct": -5.39,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "GWW",
-      "name": "W.W. Grainger, Inc.",
-      "price": 1287.13,
-      "ema12": 1360.23,
-      "pct": -5.37,
+      "price": 159.43,
+      "ema12": 169.02,
+      "pct": -5.67,
       "bucket": "5-10%"
     },
     {
       "ticker": "EIX",
       "name": "Edison International",
-      "price": 71.89,
-      "ema12": 75.92,
-      "pct": -5.31,
+      "price": 71.84,
+      "ema12": 75.91,
+      "pct": -5.37,
       "bucket": "5-10%"
     },
     {
       "ticker": "VST",
       "name": "Vistra Corp.",
-      "price": 144.85,
-      "ema12": 152.86,
-      "pct": -5.24,
+      "price": 144.91,
+      "ema12": 152.87,
+      "pct": -5.21,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "GWW",
+      "name": "W.W. Grainger, Inc.",
+      "price": 1291.77,
+      "ema12": 1360.95,
+      "pct": -5.08,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-04T16:00:35.500Z",
+  "lastUpdated": "2026-08-04T16:11:09.633Z",
   "source": "github-actions"
 }
