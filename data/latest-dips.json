@@ -75,9 +75,9 @@
     {
       "ticker": "CL=F",
       "name": "Crude Oil Sep 26",
-      "price": 74.99,
+      "price": 75.04,
       "ema12": 80.61,
-      "pct": -6.97,
+      "pct": -6.91,
       "bucket": "5-10%"
     },
     {
@@ -137,6 +137,6 @@
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-05T20:45:05.488Z",
+  "lastUpdated": "2026-08-05T21:04:38.019Z",
   "source": "github-actions"
 }
