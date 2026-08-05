@@ -3,137 +3,137 @@
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 184.04,
-      "ema12": 227.05,
-      "pct": -18.94,
+      "price": 185.59,
+      "ema12": 227.29,
+      "pct": -18.35,
       "bucket": "15-20%"
     },
     {
       "ticker": "PODD",
       "name": "Insulet Corporation",
-      "price": 133.36,
-      "ema12": 160.47,
-      "pct": -16.89,
+      "price": 132.37,
+      "ema12": 160.31,
+      "pct": -17.43,
       "bucket": "15-20%"
     },
     {
       "ticker": "APTV",
       "name": "Aptiv PLC",
-      "price": 47.02,
-      "ema12": 54.83,
-      "pct": -14.24,
+      "price": 46.84,
+      "ema12": 54.8,
+      "pct": -14.52,
       "bucket": "10-15%"
     },
     {
       "ticker": "NRG",
       "name": "NRG Energy, Inc.",
-      "price": 118.44,
-      "ema12": 129.98,
-      "pct": -8.88,
+      "price": 118.3,
+      "ema12": 129.96,
+      "pct": -8.97,
       "bucket": "5-10%"
     },
     {
       "ticker": "EIX",
       "name": "Edison International",
-      "price": 68.01,
+      "price": 68.02,
       "ema12": 74.55,
-      "pct": -8.77,
+      "pct": -8.76,
       "bucket": "5-10%"
     },
     {
       "ticker": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 154.14,
-      "ema12": 167.29,
+      "price": 154.13,
+      "ema12": 167.28,
       "pct": -7.86,
       "bucket": "5-10%"
     },
     {
       "ticker": "ON",
       "name": "ON Semiconductor Corporation",
-      "price": 77.35,
-      "ema12": 83.76,
-      "pct": -7.65,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "NXPI",
-      "name": "NXP Semiconductors N.V.",
-      "price": 230.9,
-      "ema12": 247.91,
-      "pct": -6.86,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CL=F",
-      "name": "Crude Oil Sep 26",
-      "price": 75.13,
-      "ema12": 80.63,
-      "pct": -6.82,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "FICO",
-      "name": "Fair Isaac Corporation",
-      "price": 1089.67,
-      "ema12": 1165.8,
-      "pct": -6.53,
+      "price": 77.33,
+      "ema12": 83.75,
+      "pct": -7.67,
       "bucket": "5-10%"
     },
     {
       "ticker": "RDDT",
       "name": "Reddit, Inc.",
-      "price": 156.47,
-      "ema12": 167.16,
-      "pct": -6.4,
+      "price": 155.53,
+      "ema12": 167.02,
+      "pct": -6.88,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CL=F",
+      "name": "Crude Oil Sep 26",
+      "price": 75.1,
+      "ema12": 80.62,
+      "pct": -6.85,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "NXPI",
+      "name": "NXP Semiconductors N.V.",
+      "price": 231.05,
+      "ema12": 247.93,
+      "pct": -6.81,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "FICO",
+      "name": "Fair Isaac Corporation",
+      "price": 1086.08,
+      "ema12": 1165.25,
+      "pct": -6.79,
       "bucket": "5-10%"
     },
     {
       "ticker": "VST",
       "name": "Vistra Corp.",
-      "price": 141.51,
-      "ema12": 150.9,
-      "pct": -6.23,
+      "price": 141.54,
+      "ema12": 150.91,
+      "pct": -6.21,
       "bucket": "5-10%"
     },
     {
       "ticker": "CVS",
       "name": "CVS Health Corporation",
-      "price": 98.28,
-      "ema12": 104.76,
-      "pct": -6.19,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CCI",
-      "name": "Crown Castle Inc.",
-      "price": 71.69,
-      "ema12": 76.16,
-      "pct": -5.87,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "ROL",
-      "name": "Rollins, Inc.",
-      "price": 37.08,
-      "ema12": 39.29,
-      "pct": -5.62,
+      "price": 98.36,
+      "ema12": 104.78,
+      "pct": -6.12,
       "bucket": "5-10%"
     },
     {
       "ticker": "NI",
       "name": "NiSource Inc",
-      "price": 42.46,
-      "ema12": 44.9,
-      "pct": -5.43,
+      "price": 42.32,
+      "ema12": 44.87,
+      "pct": -5.69,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CCI",
+      "name": "Crown Castle Inc.",
+      "price": 71.92,
+      "ema12": 76.19,
+      "pct": -5.62,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "ROL",
+      "name": "Rollins, Inc.",
+      "price": 37.18,
+      "ema12": 39.3,
+      "pct": -5.4,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 450.39,
-      "ema12": 475.25,
-      "pct": -5.23,
+      "price": 450.24,
+      "ema12": 475.22,
+      "pct": -5.26,
       "bucket": "5-10%"
     },
     {
@@ -145,6 +145,6 @@
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-05T15:39:42.132Z",
+  "lastUpdated": "2026-08-05T15:50:21.622Z",
   "source": "github-actions"
 }
