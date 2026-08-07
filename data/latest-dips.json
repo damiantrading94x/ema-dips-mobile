@@ -3,156 +3,148 @@
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 14.08,
-      "ema12": 17.75,
-      "pct": -20.72,
-      "bucket": "20-25%"
+      "price": 14.27,
+      "ema12": 17.78,
+      "pct": -19.79,
+      "bucket": "15-20%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 178.94,
-      "ema12": 214.13,
-      "pct": -16.43,
+      "price": 179.96,
+      "ema12": 214.28,
+      "pct": -16.02,
       "bucket": "15-20%"
     },
     {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
-      "price": 426.92,
-      "ema12": 500.03,
-      "pct": -14.62,
+      "price": 426.76,
+      "ema12": 500.01,
+      "pct": -14.65,
       "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 340.51,
-      "ema12": 394.58,
-      "pct": -13.7,
+      "price": 341.52,
+      "ema12": 394.73,
+      "pct": -13.48,
       "bucket": "10-15%"
     },
     {
       "ticker": "PODD",
       "name": "Insulet Corporation",
-      "price": 139.23,
-      "ema12": 154.43,
-      "pct": -9.84,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "price": 350.7,
-      "ema12": 386.37,
-      "pct": -9.23,
+      "price": 139.26,
+      "ema12": 154.44,
+      "pct": -9.83,
       "bucket": "5-10%"
     },
     {
       "ticker": "SNDK",
       "name": "Sandisk Corporation",
-      "price": 1204.01,
-      "ema12": 1322.51,
-      "pct": -8.96,
+      "price": 1203.02,
+      "ema12": 1322.36,
+      "pct": -9.02,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "price": 352.44,
+      "ema12": 386.64,
+      "pct": -8.85,
       "bucket": "5-10%"
     },
     {
       "ticker": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 147.14,
-      "ema12": 161.44,
-      "pct": -8.86,
+      "price": 147.55,
+      "ema12": 161.51,
+      "pct": -8.64,
       "bucket": "5-10%"
     },
     {
       "ticker": "SKHY",
       "name": "SK hynix Inc.",
-      "price": 135.52,
-      "ema12": 147.32,
-      "pct": -8.01,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "APTV",
-      "name": "Aptiv PLC",
-      "price": 48.7,
-      "ema12": 52.77,
-      "pct": -7.72,
+      "price": 135.14,
+      "ema12": 147.26,
+      "pct": -8.23,
       "bucket": "5-10%"
     },
     {
       "ticker": "DDOG",
       "name": "Datadog, Inc.",
-      "price": 238.39,
-      "ema12": 258.28,
-      "pct": -7.7,
+      "price": 238.12,
+      "ema12": 258.24,
+      "pct": -7.79,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "APTV",
+      "name": "Aptiv PLC",
+      "price": 48.77,
+      "ema12": 52.78,
+      "pct": -7.6,
       "bucket": "5-10%"
     },
     {
       "ticker": "STX",
       "name": "Seagate Technology Holdings PLC",
-      "price": 767.95,
-      "ema12": 828.62,
-      "pct": -7.32,
+      "price": 769.83,
+      "ema12": 828.91,
+      "pct": -7.13,
       "bucket": "5-10%"
     },
     {
       "ticker": "NBIS",
       "name": "Nebius Group N.V.",
-      "price": 182.8,
-      "ema12": 197.14,
-      "pct": -7.27,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "VST",
-      "name": "Vistra Corp.",
-      "price": 137.71,
-      "ema12": 147.53,
-      "pct": -6.66,
+      "price": 183.36,
+      "ema12": 197.23,
+      "pct": -7.03,
       "bucket": "5-10%"
     },
     {
       "ticker": "FICO",
       "name": "Fair Isaac Corporation",
-      "price": 1057.11,
-      "ema12": 1131.85,
-      "pct": -6.6,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "EIX",
-      "name": "Edison International",
-      "price": 68.12,
-      "ema12": 72.64,
-      "pct": -6.22,
+      "price": 1052.17,
+      "ema12": 1131.09,
+      "pct": -6.98,
       "bucket": "5-10%"
     },
     {
       "ticker": "CVS",
       "name": "CVS Health Corporation",
-      "price": 96.19,
-      "ema12": 102.42,
-      "pct": -6.09,
+      "price": 95.98,
+      "ema12": 102.39,
+      "pct": -6.26,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "EIX",
+      "name": "Edison International",
+      "price": 68.35,
+      "ema12": 72.68,
+      "pct": -5.96,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "VST",
+      "name": "Vistra Corp.",
+      "price": 139.1,
+      "ema12": 147.75,
+      "pct": -5.85,
       "bucket": "5-10%"
     },
     {
       "ticker": "CTVA",
       "name": "Corteva, Inc.",
-      "price": 76.6,
-      "ema12": 81.31,
-      "pct": -5.8,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "NRG",
-      "name": "NRG Energy, Inc.",
-      "price": 120.5,
-      "ema12": 127.35,
-      "pct": -5.38,
+      "price": 76.67,
+      "ema12": 81.32,
+      "pct": -5.72,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-07T14:33:05.823Z",
+  "lastUpdated": "2026-08-07T14:39:06.198Z",
   "source": "github-actions"
 }
