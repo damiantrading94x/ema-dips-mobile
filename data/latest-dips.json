@@ -3,124 +3,124 @@
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 12.93,
-      "ema12": 16.98,
-      "pct": -23.86,
+      "price": 13.11,
+      "ema12": 17,
+      "pct": -22.88,
       "bucket": "20-25%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 182,
-      "ema12": 209.81,
-      "pct": -13.26,
+      "price": 183.16,
+      "ema12": 209.99,
+      "pct": -12.78,
       "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 342.44,
-      "ema12": 387.37,
-      "pct": -11.6,
+      "price": 342.9,
+      "ema12": 387.44,
+      "pct": -11.5,
       "bucket": "10-15%"
     },
     {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
-      "price": 443.96,
-      "ema12": 492.36,
-      "pct": -9.83,
+      "price": 443.69,
+      "ema12": 492.32,
+      "pct": -9.88,
       "bucket": "5-10%"
     },
     {
       "ticker": "TPL",
       "name": "Texas Pacific Land Corporation",
-      "price": 344.43,
-      "ema12": 378.61,
-      "pct": -9.03,
+      "price": 349.46,
+      "ema12": 379.39,
+      "pct": -7.89,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 425.77,
-      "ema12": 458.33,
-      "pct": -7.1,
+      "price": 422.74,
+      "ema12": 457.87,
+      "pct": -7.67,
       "bucket": "5-10%"
     },
     {
       "ticker": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 148.82,
-      "ema12": 159.79,
-      "pct": -6.86,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "PODD",
-      "name": "Insulet Corporation",
-      "price": 142.53,
-      "ema12": 152.85,
-      "pct": -6.75,
+      "price": 148.64,
+      "ema12": 159.76,
+      "pct": -6.96,
       "bucket": "5-10%"
     },
     {
       "ticker": "SKHY",
       "name": "SK hynix Inc.",
-      "price": 136.57,
-      "ema12": 145.98,
-      "pct": -6.44,
+      "price": 136.1,
+      "ema12": 145.9,
+      "pct": -6.72,
       "bucket": "5-10%"
     },
     {
-      "ticker": "APTV",
-      "name": "Aptiv PLC",
-      "price": 49.09,
-      "ema12": 52.32,
-      "pct": -6.17,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CVS",
-      "name": "CVS Health Corporation",
-      "price": 95.06,
-      "ema12": 101.23,
-      "pct": -6.1,
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "price": 142.81,
+      "ema12": 152.9,
+      "pct": -6.6,
       "bucket": "5-10%"
     },
     {
       "ticker": "HST",
       "name": "Host Hotels & Resorts, Inc.",
-      "price": 22.71,
-      "ema12": 24.15,
-      "pct": -6,
+      "price": 22.64,
+      "ema12": 24.14,
+      "pct": -6.23,
       "bucket": "5-10%"
     },
     {
-      "ticker": "EIX",
-      "name": "Edison International",
-      "price": 67.95,
-      "ema12": 71.98,
-      "pct": -5.61,
+      "ticker": "APTV",
+      "name": "Aptiv PLC",
+      "price": 49.24,
+      "ema12": 52.34,
+      "pct": -5.92,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CVS",
+      "name": "CVS Health Corporation",
+      "price": 95.31,
+      "ema12": 101.27,
+      "pct": -5.88,
       "bucket": "5-10%"
     },
     {
       "ticker": "VRSK",
       "name": "Verisk Analytics, Inc.",
-      "price": 182.42,
-      "ema12": 193.01,
-      "pct": -5.49,
+      "price": 182.95,
+      "ema12": 193.09,
+      "pct": -5.25,
       "bucket": "5-10%"
     },
     {
-      "ticker": "FICO",
-      "name": "Fair Isaac Corporation",
-      "price": 1062.42,
-      "ema12": 1119.12,
-      "pct": -5.07,
+      "ticker": "EIX",
+      "name": "Edison International",
+      "price": 68.31,
+      "ema12": 72.04,
+      "pct": -5.18,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CMG",
+      "name": "Chipotle Mexican Grill, Inc.",
+      "price": 32.36,
+      "ema12": 34.08,
+      "pct": -5.04,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-10T16:00:52.371Z",
+  "lastUpdated": "2026-08-10T17:03:01.910Z",
   "source": "github-actions"
 }
