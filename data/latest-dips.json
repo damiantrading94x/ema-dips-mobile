@@ -3,81 +3,73 @@
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 12.97,
+      "price": 12.93,
       "ema12": 16.98,
-      "pct": -23.65,
+      "pct": -23.86,
       "bucket": "20-25%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 181.92,
-      "ema12": 209.8,
-      "pct": -13.29,
+      "price": 182,
+      "ema12": 209.81,
+      "pct": -13.26,
       "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 343.74,
-      "ema12": 387.57,
-      "pct": -11.31,
+      "price": 342.44,
+      "ema12": 387.37,
+      "pct": -11.6,
       "bucket": "10-15%"
     },
     {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
-      "price": 441.66,
-      "ema12": 492.01,
-      "pct": -10.23,
-      "bucket": "10-15%"
+      "price": 443.96,
+      "ema12": 492.36,
+      "pct": -9.83,
+      "bucket": "5-10%"
     },
     {
       "ticker": "TPL",
       "name": "Texas Pacific Land Corporation",
-      "price": 348.49,
-      "ema12": 379.24,
-      "pct": -8.11,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "SKHY",
-      "name": "SK hynix Inc.",
-      "price": 135.4,
-      "ema12": 145.8,
-      "pct": -7.13,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CHRW",
-      "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 148.72,
-      "ema12": 159.77,
-      "pct": -6.92,
+      "price": 344.43,
+      "ema12": 378.61,
+      "pct": -9.03,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 427.09,
-      "ema12": 458.54,
-      "pct": -6.86,
+      "price": 425.77,
+      "ema12": 458.33,
+      "pct": -7.1,
       "bucket": "5-10%"
     },
     {
-      "ticker": "HST",
-      "name": "Host Hotels & Resorts, Inc.",
-      "price": 22.58,
-      "ema12": 24.13,
-      "pct": -6.46,
+      "ticker": "CHRW",
+      "name": "C.H. Robinson Worldwide, Inc.",
+      "price": 148.82,
+      "ema12": 159.79,
+      "pct": -6.86,
       "bucket": "5-10%"
     },
     {
       "ticker": "PODD",
       "name": "Insulet Corporation",
-      "price": 143.21,
-      "ema12": 152.96,
-      "pct": -6.37,
+      "price": 142.53,
+      "ema12": 152.85,
+      "pct": -6.75,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "SKHY",
+      "name": "SK hynix Inc.",
+      "price": 136.57,
+      "ema12": 145.98,
+      "pct": -6.44,
       "bucket": "5-10%"
     },
     {
@@ -91,44 +83,44 @@
     {
       "ticker": "CVS",
       "name": "CVS Health Corporation",
-      "price": 95.29,
-      "ema12": 101.26,
-      "pct": -5.9,
+      "price": 95.06,
+      "ema12": 101.23,
+      "pct": -6.1,
       "bucket": "5-10%"
     },
     {
-      "ticker": "FICO",
-      "name": "Fair Isaac Corporation",
-      "price": 1055.67,
-      "ema12": 1118.08,
-      "pct": -5.58,
+      "ticker": "HST",
+      "name": "Host Hotels & Resorts, Inc.",
+      "price": 22.71,
+      "ema12": 24.15,
+      "pct": -6,
       "bucket": "5-10%"
     },
     {
       "ticker": "EIX",
       "name": "Edison International",
-      "price": 68.02,
-      "ema12": 71.99,
-      "pct": -5.53,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "SNDK",
-      "name": "Sandisk Corporation",
-      "price": 1238.15,
-      "ema12": 1310.6,
-      "pct": -5.53,
+      "price": 67.95,
+      "ema12": 71.98,
+      "pct": -5.61,
       "bucket": "5-10%"
     },
     {
       "ticker": "VRSK",
       "name": "Verisk Analytics, Inc.",
-      "price": 182.89,
-      "ema12": 193.08,
-      "pct": -5.28,
+      "price": 182.42,
+      "ema12": 193.01,
+      "pct": -5.49,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "FICO",
+      "name": "Fair Isaac Corporation",
+      "price": 1062.42,
+      "ema12": 1119.12,
+      "pct": -5.07,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-10T14:57:17.397Z",
+  "lastUpdated": "2026-08-10T16:00:52.371Z",
   "source": "github-actions"
 }
