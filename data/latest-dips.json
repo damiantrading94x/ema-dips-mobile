@@ -3,124 +3,132 @@
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 12.98,
+      "price": 12.97,
       "ema12": 16.98,
-      "pct": -23.6,
+      "pct": -23.65,
       "bucket": "20-25%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 181.34,
-      "ema12": 209.71,
-      "pct": -13.53,
+      "price": 181.92,
+      "ema12": 209.8,
+      "pct": -13.29,
       "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 343.28,
-      "ema12": 387.5,
-      "pct": -11.41,
+      "price": 343.74,
+      "ema12": 387.57,
+      "pct": -11.31,
       "bucket": "10-15%"
     },
     {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
-      "price": 442.59,
-      "ema12": 492.15,
-      "pct": -10.07,
+      "price": 441.66,
+      "ema12": 492.01,
+      "pct": -10.23,
       "bucket": "10-15%"
     },
     {
       "ticker": "TPL",
       "name": "Texas Pacific Land Corporation",
-      "price": 346.54,
-      "ema12": 378.94,
-      "pct": -8.55,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "LII",
-      "name": "Lennox International, Inc.",
-      "price": 428.04,
-      "ema12": 458.68,
-      "pct": -6.68,
+      "price": 348.49,
+      "ema12": 379.24,
+      "pct": -8.11,
       "bucket": "5-10%"
     },
     {
       "ticker": "SKHY",
       "name": "SK hynix Inc.",
-      "price": 136.2,
-      "ema12": 145.92,
-      "pct": -6.66,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "PODD",
-      "name": "Insulet Corporation",
-      "price": 142.89,
-      "ema12": 152.91,
-      "pct": -6.55,
+      "price": 135.4,
+      "ema12": 145.8,
+      "pct": -7.13,
       "bucket": "5-10%"
     },
     {
       "ticker": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 149.45,
-      "ema12": 159.88,
-      "pct": -6.53,
+      "price": 148.72,
+      "ema12": 159.77,
+      "pct": -6.92,
       "bucket": "5-10%"
     },
     {
-      "ticker": "APTV",
-      "name": "Aptiv PLC",
-      "price": 48.93,
-      "ema12": 52.29,
-      "pct": -6.43,
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 427.09,
+      "ema12": 458.54,
+      "pct": -6.86,
       "bucket": "5-10%"
     },
     {
       "ticker": "HST",
       "name": "Host Hotels & Resorts, Inc.",
-      "price": 22.6,
-      "ema12": 24.14,
+      "price": 22.58,
+      "ema12": 24.13,
+      "pct": -6.46,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "price": 143.21,
+      "ema12": 152.96,
       "pct": -6.37,
       "bucket": "5-10%"
     },
     {
-      "ticker": "EIX",
-      "name": "Edison International",
-      "price": 67.51,
-      "ema12": 71.92,
-      "pct": -6.13,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "FICO",
-      "name": "Fair Isaac Corporation",
-      "price": 1049.17,
-      "ema12": 1117.08,
-      "pct": -6.08,
+      "ticker": "APTV",
+      "name": "Aptiv PLC",
+      "price": 49.09,
+      "ema12": 52.32,
+      "pct": -6.17,
       "bucket": "5-10%"
     },
     {
       "ticker": "CVS",
       "name": "CVS Health Corporation",
-      "price": 95.2,
-      "ema12": 101.25,
-      "pct": -5.98,
+      "price": 95.29,
+      "ema12": 101.26,
+      "pct": -5.9,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "FICO",
+      "name": "Fair Isaac Corporation",
+      "price": 1055.67,
+      "ema12": 1118.08,
+      "pct": -5.58,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "EIX",
+      "name": "Edison International",
+      "price": 68.02,
+      "ema12": 71.99,
+      "pct": -5.53,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "SNDK",
+      "name": "Sandisk Corporation",
+      "price": 1238.15,
+      "ema12": 1310.6,
+      "pct": -5.53,
       "bucket": "5-10%"
     },
     {
       "ticker": "VRSK",
       "name": "Verisk Analytics, Inc.",
-      "price": 182.24,
-      "ema12": 192.98,
-      "pct": -5.57,
+      "price": 182.89,
+      "ema12": 193.08,
+      "pct": -5.28,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-10T14:42:39.705Z",
+  "lastUpdated": "2026-08-10T14:57:17.397Z",
   "source": "github-actions"
 }
