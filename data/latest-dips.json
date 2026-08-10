@@ -11,9 +11,9 @@
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 183.57,
-      "ema12": 210.05,
-      "pct": -12.61,
+      "price": 183.69,
+      "ema12": 210.07,
+      "pct": -12.56,
       "bucket": "10-15%"
     },
     {
@@ -35,17 +35,17 @@
     {
       "ticker": "TPL",
       "name": "Texas Pacific Land Corporation",
-      "price": 350.75,
-      "ema12": 379.58,
-      "pct": -7.6,
+      "price": 350.44,
+      "ema12": 379.54,
+      "pct": -7.67,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 423.46,
-      "ema12": 457.98,
-      "pct": -7.54,
+      "price": 423.28,
+      "ema12": 457.95,
+      "pct": -7.57,
       "bucket": "5-10%"
     },
     {
@@ -81,19 +81,19 @@
       "bucket": "5-10%"
     },
     {
+      "ticker": "FICO",
+      "name": "Fair Isaac Corporation",
+      "price": 1049.74,
+      "ema12": 1117.17,
+      "pct": -6.04,
+      "bucket": "5-10%"
+    },
+    {
       "ticker": "VRSK",
       "name": "Verisk Analytics, Inc.",
       "price": 181.18,
       "ema12": 192.82,
       "pct": -6.04,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "FICO",
-      "name": "Fair Isaac Corporation",
-      "price": 1049.77,
-      "ema12": 1117.18,
-      "pct": -6.03,
       "bucket": "5-10%"
     },
     {
@@ -113,19 +113,19 @@
       "bucket": "5-10%"
     },
     {
-      "ticker": "CVS",
-      "name": "CVS Health Corporation",
-      "price": 95.64,
-      "ema12": 101.32,
-      "pct": -5.6,
-      "bucket": "5-10%"
-    },
-    {
       "ticker": "CMG",
       "name": "Chipotle Mexican Grill, Inc.",
       "price": 32.14,
       "ema12": 34.04,
       "pct": -5.59,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CVS",
+      "name": "CVS Health Corporation",
+      "price": 95.67,
+      "ema12": 101.32,
+      "pct": -5.58,
       "bucket": "5-10%"
     },
     {
@@ -139,17 +139,17 @@
     {
       "ticker": "NRG",
       "name": "NRG Energy, Inc.",
-      "price": 118.95,
+      "price": 118.91,
       "ema12": 125.75,
-      "pct": -5.41,
+      "pct": -5.44,
       "bucket": "5-10%"
     },
     {
       "ticker": "MO",
       "name": "Altria Group, Inc.",
-      "price": 65.55,
+      "price": 65.54,
       "ema12": 69.1,
-      "pct": -5.14,
+      "pct": -5.15,
       "bucket": "5-10%"
     },
     {
@@ -171,20 +171,12 @@
     {
       "ticker": "NI",
       "name": "NiSource Inc",
-      "price": 41.77,
+      "price": 41.78,
       "ema12": 43.99,
-      "pct": -5.05,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "APTV",
-      "name": "Aptiv PLC",
-      "price": 49.8,
-      "ema12": 52.42,
-      "pct": -5.02,
+      "pct": -5.03,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-10T20:08:48.696Z",
+  "lastUpdated": "2026-08-10T20:38:06.803Z",
   "source": "github-actions"
 }
