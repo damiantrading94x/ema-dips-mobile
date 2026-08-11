@@ -3,100 +3,100 @@
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.61,
-      "ema12": 16.52,
-      "pct": -17.63,
+      "price": 13.59,
+      "ema12": 16.51,
+      "pct": -17.74,
       "bucket": "15-20%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 325.28,
-      "ema12": 377.37,
-      "pct": -13.8,
+      "price": 324,
+      "ema12": 377.17,
+      "pct": -14.1,
       "bucket": "10-15%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 181.41,
-      "ema12": 205.66,
-      "pct": -11.79,
+      "price": 181.29,
+      "ema12": 205.64,
+      "pct": -11.84,
       "bucket": "10-15%"
     },
     {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
-      "price": 443.41,
-      "ema12": 484.1,
-      "pct": -8.41,
+      "price": 439.72,
+      "ema12": 483.53,
+      "pct": -9.06,
       "bucket": "5-10%"
     },
     {
       "ticker": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 145.73,
-      "ema12": 157.56,
-      "pct": -7.51,
+      "price": 145.62,
+      "ema12": 157.54,
+      "pct": -7.57,
       "bucket": "5-10%"
     },
     {
       "ticker": "FICO",
       "name": "Fair Isaac Corporation",
-      "price": 1030.04,
-      "ema12": 1103.77,
-      "pct": -6.68,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CVS",
-      "name": "CVS Health Corporation",
-      "price": 93.85,
-      "ema12": 100.17,
-      "pct": -6.31,
+      "price": 1032.03,
+      "ema12": 1104.07,
+      "pct": -6.53,
       "bucket": "5-10%"
     },
     {
       "ticker": "TPL",
       "name": "Texas Pacific Land Corporation",
-      "price": 351.96,
-      "ema12": 375.29,
-      "pct": -6.22,
+      "price": 351.03,
+      "ema12": 375.15,
+      "pct": -6.43,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CVS",
+      "name": "CVS Health Corporation",
+      "price": 93.89,
+      "ema12": 100.18,
+      "pct": -6.28,
       "bucket": "5-10%"
     },
     {
       "ticker": "HST",
       "name": "Host Hotels & Resorts, Inc.",
-      "price": 22.54,
-      "ema12": 23.9,
-      "pct": -5.71,
+      "price": 22.58,
+      "ema12": 23.91,
+      "pct": -5.57,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 428.32,
-      "ema12": 453.39,
-      "pct": -5.53,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "VRSK",
-      "name": "Verisk Analytics, Inc.",
-      "price": 180.69,
-      "ema12": 190.95,
-      "pct": -5.38,
+      "price": 429.96,
+      "ema12": 453.64,
+      "pct": -5.22,
       "bucket": "5-10%"
     },
     {
       "ticker": "CMG",
       "name": "Chipotle Mexican Grill, Inc.",
-      "price": 31.98,
+      "price": 31.99,
       "ema12": 33.73,
-      "pct": -5.19,
+      "pct": -5.17,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "VRSK",
+      "name": "Verisk Analytics, Inc.",
+      "price": 181.26,
+      "ema12": 191.04,
+      "pct": -5.12,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-11T14:36:42.677Z",
+  "lastUpdated": "2026-08-11T14:42:32.604Z",
   "source": "github-actions"
 }
