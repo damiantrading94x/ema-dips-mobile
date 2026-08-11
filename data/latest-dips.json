@@ -19,9 +19,9 @@
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 178.26,
-      "ema12": 205.18,
-      "pct": -13.12,
+      "price": 178.34,
+      "ema12": 205.19,
+      "pct": -13.09,
       "bucket": "10-15%"
     },
     {
@@ -43,9 +43,9 @@
     {
       "ticker": "CVS",
       "name": "CVS Health Corporation",
-      "price": 93.51,
+      "price": 93.5,
       "ema12": 100.12,
-      "pct": -6.6,
+      "pct": -6.61,
       "bucket": "5-10%"
     },
     {
@@ -59,17 +59,17 @@
     {
       "ticker": "FICO",
       "name": "Fair Isaac Corporation",
-      "price": 1038.74,
-      "ema12": 1105.11,
-      "pct": -6.01,
+      "price": 1038.23,
+      "ema12": 1105.03,
+      "pct": -6.04,
       "bucket": "5-10%"
     },
     {
       "ticker": "VTR",
       "name": "Ventas, Inc.",
-      "price": 86.97,
+      "price": 86.96,
       "ema12": 92.42,
-      "pct": -5.9,
+      "pct": -5.91,
       "bucket": "5-10%"
     },
     {
@@ -83,28 +83,28 @@
     {
       "ticker": "CMG",
       "name": "Chipotle Mexican Grill, Inc.",
-      "price": 31.98,
+      "price": 32,
       "ema12": 33.73,
-      "pct": -5.19,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "MO",
-      "name": "Altria Group, Inc.",
-      "price": 65.04,
-      "ema12": 68.47,
-      "pct": -5.02,
+      "pct": -5.13,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 431.03,
-      "ema12": 453.81,
-      "pct": -5.02,
+      "price": 430.83,
+      "ema12": 453.78,
+      "pct": -5.06,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "MO",
+      "name": "Altria Group, Inc.",
+      "price": 65.03,
+      "ema12": 68.47,
+      "pct": -5.03,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-11T20:11:03.505Z",
+  "lastUpdated": "2026-08-11T20:39:32.260Z",
   "source": "github-actions"
 }
