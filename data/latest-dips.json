@@ -3,15 +3,15 @@
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.45,
-      "ema12": 16.49,
-      "pct": -18.48,
+      "price": 13.37,
+      "ema12": 16.48,
+      "pct": -18.9,
       "bucket": "15-20%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 321.14,
+      "price": 321.13,
       "ema12": 376.73,
       "pct": -14.76,
       "bucket": "10-15%"
@@ -19,17 +19,17 @@
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 179.32,
-      "ema12": 205.34,
-      "pct": -12.67,
+      "price": 180.93,
+      "ema12": 205.59,
+      "pct": -11.99,
       "bucket": "10-15%"
     },
     {
       "ticker": "WDC",
       "name": "Western Digital Corporation",
-      "price": 439.39,
-      "ema12": 483.48,
-      "pct": -9.12,
+      "price": 440.08,
+      "ema12": 483.59,
+      "pct": -9,
       "bucket": "5-10%"
     },
     {
@@ -41,70 +41,70 @@
       "bucket": "5-10%"
     },
     {
-      "ticker": "CVS",
-      "name": "CVS Health Corporation",
-      "price": 93.23,
-      "ema12": 100.08,
-      "pct": -6.84,
+      "ticker": "FICO",
+      "name": "Fair Isaac Corporation",
+      "price": 1028.17,
+      "ema12": 1103.48,
+      "pct": -6.82,
       "bucket": "5-10%"
     },
     {
-      "ticker": "FICO",
-      "name": "Fair Isaac Corporation",
-      "price": 1031.82,
-      "ema12": 1104.04,
-      "pct": -6.54,
+      "ticker": "CVS",
+      "name": "CVS Health Corporation",
+      "price": 93.6,
+      "ema12": 100.13,
+      "pct": -6.53,
       "bucket": "5-10%"
     },
     {
       "ticker": "HST",
       "name": "Host Hotels & Resorts, Inc.",
-      "price": 22.46,
-      "ema12": 23.89,
-      "pct": -5.98,
+      "price": 22.51,
+      "ema12": 23.9,
+      "pct": -5.8,
       "bucket": "5-10%"
     },
     {
-      "ticker": "PODD",
-      "name": "Insulet Corporation",
-      "price": 143.33,
-      "ema12": 151.43,
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 429.26,
+      "ema12": 453.54,
       "pct": -5.35,
       "bucket": "5-10%"
     },
     {
       "ticker": "CMG",
       "name": "Chipotle Mexican Grill, Inc.",
-      "price": 31.94,
-      "ema12": 33.72,
-      "pct": -5.28,
+      "price": 31.98,
+      "ema12": 33.73,
+      "pct": -5.19,
       "bucket": "5-10%"
     },
     {
-      "ticker": "DECK",
-      "name": "Deckers Outdoor Corporation",
-      "price": 93.29,
-      "ema12": 98.41,
-      "pct": -5.2,
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "price": 143.67,
+      "ema12": 151.48,
+      "pct": -5.16,
       "bucket": "5-10%"
     },
     {
-      "ticker": "LII",
-      "name": "Lennox International, Inc.",
-      "price": 430.16,
-      "ema12": 453.67,
-      "pct": -5.18,
+      "ticker": "MO",
+      "name": "Altria Group, Inc.",
+      "price": 64.97,
+      "ema12": 68.46,
+      "pct": -5.11,
       "bucket": "5-10%"
     },
     {
-      "ticker": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "price": 356.54,
-      "ema12": 376,
-      "pct": -5.17,
+      "ticker": "VRSK",
+      "name": "Verisk Analytics, Inc.",
+      "price": 181.42,
+      "ema12": 191.07,
+      "pct": -5.05,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-11T17:07:09.885Z",
+  "lastUpdated": "2026-08-11T18:07:07.681Z",
   "source": "github-actions"
 }
