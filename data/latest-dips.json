@@ -3,100 +3,100 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 45.67,
+      "price": 45.64,
       "ema12": 86.99,
-      "pct": -47.51,
+      "pct": -47.53,
       "bucket": "30%+"
-    },
-    {
-      "ticker": "TTD",
-      "name": "The Trade Desk, Inc.",
-      "price": 13.4,
-      "ema12": 16.03,
-      "pct": -16.44,
-      "bucket": "15-20%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 308.47,
-      "ema12": 365.91,
-      "pct": -15.7,
+      "price": 305.6,
+      "ema12": 365.47,
+      "pct": -16.38,
+      "bucket": "15-20%"
+    },
+    {
+      "ticker": "TTD",
+      "name": "The Trade Desk, Inc.",
+      "price": 13.59,
+      "ema12": 16.06,
+      "pct": -15.41,
       "bucket": "15-20%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 180.29,
-      "ema12": 201.1,
-      "pct": -10.35,
-      "bucket": "10-15%"
+      "price": 182.73,
+      "ema12": 201.48,
+      "pct": -9.31,
+      "bucket": "5-10%"
     },
     {
       "ticker": "TPL",
       "name": "Texas Pacific Land Corporation",
-      "price": 340.47,
-      "ema12": 371.63,
-      "pct": -8.38,
+      "price": 342.14,
+      "ema12": 371.89,
+      "pct": -8,
       "bucket": "5-10%"
     },
     {
       "ticker": "APTV",
       "name": "Aptiv PLC",
-      "price": 47.93,
-      "ema12": 51.37,
-      "pct": -6.7,
+      "price": 48.2,
+      "ema12": 51.41,
+      "pct": -6.25,
       "bucket": "5-10%"
     },
     {
       "ticker": "EBAY",
       "name": "eBay Inc.",
-      "price": 102.4,
-      "ema12": 109.06,
-      "pct": -6.11,
+      "price": 102.44,
+      "ema12": 109.07,
+      "pct": -6.08,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 422.86,
-      "ema12": 449.02,
-      "pct": -5.83,
+      "price": 422.18,
+      "ema12": 448.92,
+      "pct": -5.96,
       "bucket": "5-10%"
     },
     {
       "ticker": "DECK",
       "name": "Deckers Outdoor Corporation",
-      "price": 91.94,
-      "ema12": 97.49,
-      "pct": -5.69,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "FICO",
-      "name": "Fair Isaac Corporation",
-      "price": 1035.1,
-      "ema12": 1094.27,
-      "pct": -5.41,
+      "price": 91.77,
+      "ema12": 97.46,
+      "pct": -5.84,
       "bucket": "5-10%"
     },
     {
       "ticker": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 147.82,
-      "ema12": 155.98,
-      "pct": -5.23,
+      "price": 147.05,
+      "ema12": 155.86,
+      "pct": -5.65,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "VRSK",
+      "name": "Verisk Analytics, Inc.",
+      "price": 179.25,
+      "ema12": 189.19,
+      "pct": -5.25,
       "bucket": "5-10%"
     },
     {
       "ticker": "DDOG",
       "name": "Datadog, Inc.",
-      "price": 241.1,
-      "ema12": 254,
-      "pct": -5.08,
+      "price": 240.76,
+      "ema12": 253.94,
+      "pct": -5.19,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-12T18:12:17.747Z",
+  "lastUpdated": "2026-08-12T19:20:35.088Z",
   "source": "github-actions"
 }
