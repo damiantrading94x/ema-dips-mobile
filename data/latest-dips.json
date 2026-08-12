@@ -3,65 +3,65 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 45.56,
+      "price": 45.59,
       "ema12": 86.98,
-      "pct": -47.62,
+      "pct": -47.59,
       "bucket": "30%+"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.28,
+      "price": 13.26,
       "ema12": 16.01,
-      "pct": -17.1,
+      "pct": -17.18,
       "bucket": "15-20%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 313.07,
-      "ema12": 366.62,
-      "pct": -14.61,
+      "price": 313.69,
+      "ema12": 366.71,
+      "pct": -14.46,
       "bucket": "10-15%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 178.11,
-      "ema12": 201.02,
-      "pct": -11.4,
+      "price": 178.52,
+      "ema12": 201.09,
+      "pct": -11.22,
       "bucket": "10-15%"
     },
     {
-      "ticker": "LII",
-      "name": "Lennox International, Inc.",
-      "price": 423.22,
-      "ema12": 453.34,
-      "pct": -6.64,
+      "ticker": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "price": 348.56,
+      "ema12": 372.88,
+      "pct": -6.52,
       "bucket": "5-10%"
     },
     {
       "ticker": "FICO",
       "name": "Fair Isaac Corporation",
-      "price": 1024.13,
-      "ema12": 1092.58,
-      "pct": -6.27,
+      "price": 1026.86,
+      "ema12": 1093,
+      "pct": -6.05,
       "bucket": "5-10%"
     },
     {
-      "ticker": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "price": 350.5,
-      "ema12": 373.17,
-      "pct": -6.08,
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 422.81,
+      "ema12": 449.01,
+      "pct": -5.84,
       "bucket": "5-10%"
     },
     {
       "ticker": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 146.75,
-      "ema12": 155.81,
-      "pct": -5.82,
+      "price": 146.96,
+      "ema12": 155.84,
+      "pct": -5.7,
       "bucket": "5-10%"
     },
     {
@@ -69,34 +69,34 @@
       "name": "CVS Health Corporation",
       "price": 93.52,
       "ema12": 99.1,
-      "pct": -5.64,
+      "pct": -5.63,
       "bucket": "5-10%"
     },
     {
       "ticker": "EBAY",
       "name": "eBay Inc.",
-      "price": 103.62,
-      "ema12": 109.25,
-      "pct": -5.16,
+      "price": 103.19,
+      "ema12": 109.18,
+      "pct": -5.49,
       "bucket": "5-10%"
     },
     {
       "ticker": "PODD",
       "name": "Insulet Corporation",
-      "price": 142.5,
-      "ema12": 150.19,
-      "pct": -5.12,
+      "price": 142.56,
+      "ema12": 150.24,
+      "pct": -5.11,
       "bucket": "5-10%"
     },
     {
       "ticker": "CTVA",
       "name": "Corteva, Inc.",
-      "price": 75.08,
-      "ema12": 79.12,
-      "pct": -5.11,
+      "price": 75.22,
+      "ema12": 79.2,
+      "pct": -5.03,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-12T14:42:57.828Z",
+  "lastUpdated": "2026-08-12T14:55:54.273Z",
   "source": "github-actions"
 }
