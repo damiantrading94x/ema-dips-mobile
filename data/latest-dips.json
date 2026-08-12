@@ -3,100 +3,108 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 45.59,
-      "ema12": 86.98,
-      "pct": -47.59,
+      "price": 45.68,
+      "ema12": 87,
+      "pct": -47.49,
       "bucket": "30%+"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.26,
-      "ema12": 16.01,
-      "pct": -17.18,
+      "price": 13.34,
+      "ema12": 16.02,
+      "pct": -16.77,
       "bucket": "15-20%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 313.69,
-      "ema12": 366.71,
-      "pct": -14.46,
-      "bucket": "10-15%"
+      "price": 310.93,
+      "ema12": 366.29,
+      "pct": -15.11,
+      "bucket": "15-20%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 178.52,
-      "ema12": 201.09,
-      "pct": -11.22,
+      "price": 178.84,
+      "ema12": 200.88,
+      "pct": -10.97,
       "bucket": "10-15%"
     },
     {
       "ticker": "TPL",
       "name": "Texas Pacific Land Corporation",
-      "price": 348.56,
-      "ema12": 372.88,
-      "pct": -6.52,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "FICO",
-      "name": "Fair Isaac Corporation",
-      "price": 1026.86,
-      "ema12": 1093,
-      "pct": -6.05,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "LII",
-      "name": "Lennox International, Inc.",
-      "price": 422.81,
-      "ema12": 449.01,
-      "pct": -5.84,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CHRW",
-      "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 146.96,
-      "ema12": 155.84,
-      "pct": -5.7,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CVS",
-      "name": "CVS Health Corporation",
-      "price": 93.52,
-      "ema12": 99.1,
-      "pct": -5.63,
+      "price": 345.76,
+      "ema12": 372.44,
+      "pct": -7.16,
       "bucket": "5-10%"
     },
     {
       "ticker": "EBAY",
       "name": "eBay Inc.",
-      "price": 103.19,
-      "ema12": 109.18,
-      "pct": -5.49,
+      "price": 102.43,
+      "ema12": 109.07,
+      "pct": -6.09,
       "bucket": "5-10%"
     },
     {
-      "ticker": "PODD",
-      "name": "Insulet Corporation",
-      "price": 142.56,
-      "ema12": 150.24,
-      "pct": -5.11,
+      "ticker": "FICO",
+      "name": "Fair Isaac Corporation",
+      "price": 1030.24,
+      "ema12": 1093.52,
+      "pct": -5.79,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CHRW",
+      "name": "C.H. Robinson Worldwide, Inc.",
+      "price": 147.04,
+      "ema12": 155.86,
+      "pct": -5.66,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "DECK",
+      "name": "Deckers Outdoor Corporation",
+      "price": 92.26,
+      "ema12": 97.54,
+      "pct": -5.41,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 425.26,
+      "ema12": 449.39,
+      "pct": -5.37,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CVS",
+      "name": "CVS Health Corporation",
+      "price": 94.15,
+      "ema12": 99.2,
+      "pct": -5.1,
       "bucket": "5-10%"
     },
     {
       "ticker": "CTVA",
       "name": "Corteva, Inc.",
-      "price": 75.22,
+      "price": 75.19,
       "ema12": 79.2,
-      "pct": -5.03,
+      "pct": -5.06,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "RDDT",
+      "name": "Reddit, Inc.",
+      "price": 152.58,
+      "ema12": 160.68,
+      "pct": -5.04,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-12T14:55:54.273Z",
+  "lastUpdated": "2026-08-12T15:58:30.867Z",
   "source": "github-actions"
 }
