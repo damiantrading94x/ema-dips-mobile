@@ -3,108 +3,100 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 45.68,
-      "ema12": 87,
-      "pct": -47.49,
+      "price": 45.47,
+      "ema12": 86.96,
+      "pct": -47.71,
       "bucket": "30%+"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.34,
-      "ema12": 16.02,
-      "pct": -16.77,
+      "price": 13.4,
+      "ema12": 16.03,
+      "pct": -16.44,
       "bucket": "15-20%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 310.93,
-      "ema12": 366.29,
-      "pct": -15.11,
-      "bucket": "15-20%"
+      "price": 311.65,
+      "ema12": 366.4,
+      "pct": -14.94,
+      "bucket": "10-15%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 178.84,
-      "ema12": 200.88,
-      "pct": -10.97,
+      "price": 179.37,
+      "ema12": 201.22,
+      "pct": -10.86,
       "bucket": "10-15%"
     },
     {
       "ticker": "TPL",
       "name": "Texas Pacific Land Corporation",
-      "price": 345.76,
-      "ema12": 372.44,
-      "pct": -7.16,
+      "price": 342.27,
+      "ema12": 371.91,
+      "pct": -7.97,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "APTV",
+      "name": "Aptiv PLC",
+      "price": 48.33,
+      "ema12": 51.43,
+      "pct": -6.04,
       "bucket": "5-10%"
     },
     {
       "ticker": "EBAY",
       "name": "eBay Inc.",
-      "price": 102.43,
-      "ema12": 109.07,
-      "pct": -6.09,
+      "price": 102.76,
+      "ema12": 109.12,
+      "pct": -5.83,
       "bucket": "5-10%"
     },
     {
       "ticker": "FICO",
       "name": "Fair Isaac Corporation",
-      "price": 1030.24,
+      "price": 1030.23,
       "ema12": 1093.52,
       "pct": -5.79,
       "bucket": "5-10%"
     },
     {
-      "ticker": "CHRW",
-      "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 147.04,
-      "ema12": 155.86,
-      "pct": -5.66,
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 424.74,
+      "ema12": 449.31,
+      "pct": -5.47,
       "bucket": "5-10%"
     },
     {
       "ticker": "DECK",
       "name": "Deckers Outdoor Corporation",
-      "price": 92.26,
+      "price": 92.27,
       "ema12": 97.54,
-      "pct": -5.41,
+      "pct": -5.4,
       "bucket": "5-10%"
     },
     {
-      "ticker": "LII",
-      "name": "Lennox International, Inc.",
-      "price": 425.26,
-      "ema12": 449.39,
-      "pct": -5.37,
+      "ticker": "CHRW",
+      "name": "C.H. Robinson Worldwide, Inc.",
+      "price": 147.67,
+      "ema12": 155.95,
+      "pct": -5.31,
       "bucket": "5-10%"
     },
     {
       "ticker": "CVS",
       "name": "CVS Health Corporation",
-      "price": 94.15,
-      "ema12": 99.2,
-      "pct": -5.1,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CTVA",
-      "name": "Corteva, Inc.",
-      "price": 75.19,
-      "ema12": 79.2,
-      "pct": -5.06,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "RDDT",
-      "name": "Reddit, Inc.",
-      "price": 152.58,
-      "ema12": 160.68,
-      "pct": -5.04,
+      "price": 94.23,
+      "ema12": 99.21,
+      "pct": -5.02,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-12T15:58:30.867Z",
+  "lastUpdated": "2026-08-12T17:01:19.504Z",
   "source": "github-actions"
 }
