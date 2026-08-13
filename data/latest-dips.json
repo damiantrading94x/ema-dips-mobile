@@ -4,16 +4,16 @@
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
       "price": 46.68,
-      "ema12": 75.45,
-      "pct": -38.13,
+      "ema12": 75.44,
+      "pct": -38.12,
       "bucket": "30%+"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 128.43,
-      "ema12": 151.59,
-      "pct": -15.28,
+      "price": 128.39,
+      "ema12": 151.84,
+      "pct": -15.44,
       "bucket": "15-20%"
     },
     {
@@ -27,9 +27,9 @@
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 179.09,
-      "ema12": 197.87,
-      "pct": -9.5,
+      "price": 179.17,
+      "ema12": 197.89,
+      "pct": -9.46,
       "bucket": "5-10%"
     },
     {
@@ -44,19 +44,19 @@
       "ticker": "LII",
       "name": "Lennox International, Inc.",
       "price": 418.31,
-      "ema12": 447.64,
-      "pct": -6.55,
+      "ema12": 444.04,
+      "pct": -5.79,
       "bucket": "5-10%"
     },
     {
       "ticker": "TPL",
       "name": "Texas Pacific Land Corporation",
-      "price": 347.29,
-      "ema12": 367.78,
-      "pct": -5.57,
+      "price": 347.04,
+      "ema12": 367.74,
+      "pct": -5.63,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-13T20:05:04.005Z",
+  "lastUpdated": "2026-08-13T20:38:15.999Z",
   "source": "github-actions"
 }
