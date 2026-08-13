@@ -3,60 +3,60 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 46.67,
-      "ema12": 75.44,
-      "pct": -38.14,
+      "price": 46.68,
+      "ema12": 75.45,
+      "pct": -38.13,
       "bucket": "30%+"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 130.45,
-      "ema12": 151.9,
-      "pct": -14.12,
-      "bucket": "10-15%"
+      "price": 128.43,
+      "ema12": 151.59,
+      "pct": -15.28,
+      "bucket": "15-20%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 314.99,
-      "ema12": 357.46,
-      "pct": -11.88,
+      "price": 312.67,
+      "ema12": 357.11,
+      "pct": -12.44,
       "bucket": "10-15%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 180.52,
-      "ema12": 198.09,
-      "pct": -8.87,
+      "price": 179.09,
+      "ema12": 197.87,
+      "pct": -9.5,
       "bucket": "5-10%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 14.46,
-      "ema12": 15.8,
-      "pct": -8.49,
+      "price": 14.56,
+      "ema12": 15.82,
+      "pct": -7.95,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 418.18,
-      "ema12": 444.02,
-      "pct": -5.82,
+      "price": 418.31,
+      "ema12": 447.64,
+      "pct": -6.55,
       "bucket": "5-10%"
     },
     {
       "ticker": "TPL",
       "name": "Texas Pacific Land Corporation",
-      "price": 347.89,
-      "ema12": 367.87,
-      "pct": -5.43,
+      "price": 347.29,
+      "ema12": 367.78,
+      "pct": -5.57,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-13T19:20:11.472Z",
+  "lastUpdated": "2026-08-13T20:05:04.005Z",
   "source": "github-actions"
 }
