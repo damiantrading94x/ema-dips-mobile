@@ -3,84 +3,60 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 46.9,
-      "ema12": 75.47,
-      "pct": -37.86,
+      "price": 46.67,
+      "ema12": 75.44,
+      "pct": -38.14,
       "bucket": "30%+"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 129.09,
-      "ema12": 151.95,
-      "pct": -15.04,
-      "bucket": "15-20%"
+      "price": 130.45,
+      "ema12": 151.9,
+      "pct": -14.12,
+      "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 313.79,
-      "ema12": 357.28,
-      "pct": -12.17,
-      "bucket": "10-15%"
-    },
-    {
-      "ticker": "TTD",
-      "name": "The Trade Desk, Inc.",
-      "price": 13.94,
-      "ema12": 15.72,
-      "pct": -11.36,
+      "price": 314.99,
+      "ema12": 357.46,
+      "pct": -11.88,
       "bucket": "10-15%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 180.86,
-      "ema12": 198.36,
-      "pct": -8.82,
+      "price": 180.52,
+      "ema12": 198.09,
+      "pct": -8.87,
       "bucket": "5-10%"
     },
     {
-      "ticker": "TPL",
-      "name": "Texas Pacific Land Corporation",
-      "price": 347.1,
-      "ema12": 368.16,
-      "pct": -5.72,
+      "ticker": "TTD",
+      "name": "The Trade Desk, Inc.",
+      "price": 14.46,
+      "ema12": 15.8,
+      "pct": -8.49,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 419.56,
-      "ema12": 444.23,
-      "pct": -5.55,
+      "price": 418.18,
+      "ema12": 444.02,
+      "pct": -5.82,
       "bucket": "5-10%"
     },
     {
-      "ticker": "APTV",
-      "name": "Aptiv PLC",
-      "price": 48.14,
-      "ema12": 50.94,
-      "pct": -5.5,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "MOS",
-      "name": "Mosaic Company (The)",
-      "price": 21.43,
-      "ema12": 22.63,
-      "pct": -5.28,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CTVA",
-      "name": "Corteva, Inc.",
-      "price": 75.04,
-      "ema12": 79.08,
-      "pct": -5.11,
+      "ticker": "TPL",
+      "name": "Texas Pacific Land Corporation",
+      "price": 347.89,
+      "ema12": 367.87,
+      "pct": -5.43,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-13T18:08:00.227Z",
+  "lastUpdated": "2026-08-13T19:20:11.472Z",
   "source": "github-actions"
 }
