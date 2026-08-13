@@ -3,68 +3,60 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 46.84,
-      "ema12": 75.47,
-      "pct": -37.94,
+      "price": 46.82,
+      "ema12": 75.46,
+      "pct": -37.96,
       "bucket": "30%+"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 129.74,
-      "ema12": 151.79,
-      "pct": -14.53,
-      "bucket": "10-15%"
-    },
-    {
-      "ticker": "APP",
-      "name": "Applovin Corporation",
-      "price": 316.6,
-      "ema12": 357.71,
-      "pct": -11.49,
+      "price": 130.39,
+      "ema12": 152.15,
+      "pct": -14.3,
       "bucket": "10-15%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.92,
-      "ema12": 15.72,
-      "pct": -11.47,
+      "price": 13.82,
+      "ema12": 15.7,
+      "pct": -11.99,
+      "bucket": "10-15%"
+    },
+    {
+      "ticker": "APP",
+      "name": "Applovin Corporation",
+      "price": 316.15,
+      "ema12": 357.64,
+      "pct": -11.6,
       "bucket": "10-15%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 181.47,
-      "ema12": 198.24,
-      "pct": -8.46,
+      "price": 181.38,
+      "ema12": 198.44,
+      "pct": -8.6,
       "bucket": "5-10%"
     },
     {
       "ticker": "TPL",
       "name": "Texas Pacific Land Corporation",
-      "price": 345.11,
-      "ema12": 367.44,
-      "pct": -6.08,
+      "price": 344.88,
+      "ema12": 367.81,
+      "pct": -6.24,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 421.12,
-      "ema12": 448.08,
-      "pct": -6.02,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "APTV",
-      "name": "Aptiv PLC",
-      "price": 48.52,
-      "ema12": 51.08,
-      "pct": -5.02,
+      "price": 420.42,
+      "ema12": 444.37,
+      "pct": -5.39,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-13T14:38:14.023Z",
+  "lastUpdated": "2026-08-13T14:42:12.402Z",
   "source": "github-actions"
 }
