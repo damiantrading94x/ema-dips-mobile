@@ -3,44 +3,44 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 46.67,
-      "ema12": 71.02,
-      "pct": -34.29,
+      "price": 46.54,
+      "ema12": 70.99,
+      "pct": -34.44,
       "bucket": "30%+"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 129.2,
-      "ema12": 148.14,
-      "pct": -12.79,
+      "price": 128.74,
+      "ema12": 148.07,
+      "pct": -13.06,
       "bucket": "10-15%"
-    },
-    {
-      "ticker": "APP",
-      "name": "Applovin Corporation",
-      "price": 317.83,
-      "ema12": 351.06,
-      "pct": -9.47,
-      "bucket": "5-10%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 14.09,
+      "price": 14.05,
       "ema12": 15.55,
-      "pct": -9.43,
+      "pct": -9.61,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "APP",
+      "name": "Applovin Corporation",
+      "price": 318.37,
+      "ema12": 351.15,
+      "pct": -9.33,
       "bucket": "5-10%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 180.89,
-      "ema12": 195.27,
-      "pct": -7.37,
+      "price": 181.02,
+      "ema12": 195.47,
+      "pct": -7.4,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-14T17:52:05.241Z",
+  "lastUpdated": "2026-08-14T18:52:06.302Z",
   "source": "github-actions"
 }
