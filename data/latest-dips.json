@@ -3,60 +3,60 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 46,
-      "ema12": 67.18,
-      "pct": -31.54,
+      "price": 45.84,
+      "ema12": 67.16,
+      "pct": -31.74,
       "bucket": "30%+"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 129.09,
-      "ema12": 145.36,
-      "pct": -11.19,
+      "price": 128.44,
+      "ema12": 145.26,
+      "pct": -11.58,
       "bucket": "10-15%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.65,
-      "ema12": 15.27,
-      "pct": -10.58,
+      "price": 13.62,
+      "ema12": 15.26,
+      "pct": -10.78,
       "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 317.82,
-      "ema12": 345.64,
-      "pct": -8.05,
+      "price": 315.91,
+      "ema12": 345.35,
+      "pct": -8.52,
       "bucket": "5-10%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 177.23,
-      "ema12": 192.54,
-      "pct": -7.96,
+      "price": 177.84,
+      "ema12": 192.64,
+      "pct": -7.68,
       "bucket": "5-10%"
     },
     {
       "ticker": "MOS",
       "name": "Mosaic Company (The)",
-      "price": 21.05,
+      "price": 21.08,
       "ema12": 22.29,
-      "pct": -5.58,
+      "pct": -5.47,
       "bucket": "5-10%"
     },
     {
       "ticker": "DECK",
       "name": "Deckers Outdoor Corporation",
-      "price": 90.45,
+      "price": 90.46,
       "ema12": 95.3,
-      "pct": -5.09,
+      "pct": -5.08,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-17T14:26:44.403Z",
+  "lastUpdated": "2026-08-17T14:54:33.301Z",
   "source": "github-actions"
 }
