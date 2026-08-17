@@ -3,57 +3,57 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 45.74,
-      "ema12": 67.14,
-      "pct": -31.88,
+      "price": 45.65,
+      "ema12": 67.13,
+      "pct": -32,
       "bucket": "30%+"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.49,
-      "ema12": 15.24,
-      "pct": -11.52,
+      "price": 13.36,
+      "ema12": 15.22,
+      "pct": -12.25,
       "bucket": "10-15%"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 128.79,
-      "ema12": 145.32,
-      "pct": -11.38,
+      "price": 128.28,
+      "ema12": 145.24,
+      "pct": -11.68,
       "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 311.08,
-      "ema12": 344.6,
-      "pct": -9.73,
-      "bucket": "5-10%"
+      "price": 308.62,
+      "ema12": 344.22,
+      "pct": -10.34,
+      "bucket": "10-15%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 178.13,
-      "ema12": 192.68,
-      "pct": -7.55,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "PODD",
-      "name": "Insulet Corporation",
-      "price": 138.64,
-      "ema12": 147.37,
-      "pct": -5.93,
+      "price": 177.6,
+      "ema12": 192.6,
+      "pct": -7.79,
       "bucket": "5-10%"
     },
     {
       "ticker": "MOS",
       "name": "Mosaic Company (The)",
-      "price": 20.98,
-      "ema12": 22.28,
-      "pct": -5.85,
+      "price": 20.91,
+      "ema12": 22.27,
+      "pct": -6.12,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "price": 139.3,
+      "ema12": 147.48,
+      "pct": -5.54,
       "bucket": "5-10%"
     },
     {
@@ -61,10 +61,26 @@
       "name": "Nike, Inc.",
       "price": 38.99,
       "ema12": 41.19,
-      "pct": -5.34,
+      "pct": -5.33,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "price": 46.22,
+      "ema12": 48.76,
+      "pct": -5.21,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "VRSK",
+      "name": "Verisk Analytics, Inc.",
+      "price": 176.67,
+      "ema12": 186.03,
+      "pct": -5.03,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-17T16:55:52.508Z",
+  "lastUpdated": "2026-08-17T17:25:54.707Z",
   "source": "github-actions"
 }
