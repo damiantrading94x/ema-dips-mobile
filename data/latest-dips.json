@@ -3,52 +3,76 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 46.82,
-      "ema12": 71.04,
-      "pct": -34.09,
+      "price": 46.16,
+      "ema12": 67.21,
+      "pct": -31.32,
       "bucket": "30%+"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 128.98,
-      "ema12": 148.32,
-      "pct": -13.04,
-      "bucket": "10-15%"
-    },
-    {
-      "ticker": "APP",
-      "name": "Applovin Corporation",
-      "price": 315.44,
-      "ema12": 350.7,
-      "pct": -10.05,
+      "price": 128.81,
+      "ema12": 145.32,
+      "pct": -11.36,
       "bucket": "10-15%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 14.14,
-      "ema12": 15.56,
-      "pct": -9.12,
+      "price": 13.58,
+      "ema12": 15.25,
+      "pct": -11.01,
+      "bucket": "10-15%"
+    },
+    {
+      "ticker": "APP",
+      "name": "Applovin Corporation",
+      "price": 315.71,
+      "ema12": 345.31,
+      "pct": -8.57,
       "bucket": "5-10%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 180.06,
-      "ema12": 195.33,
-      "pct": -7.82,
+      "price": 177.45,
+      "ema12": 192.58,
+      "pct": -7.85,
       "bucket": "5-10%"
     },
     {
-      "ticker": "CSCO",
-      "name": "Cisco Systems, Inc.",
-      "price": 111.68,
-      "ema12": 117.58,
+      "ticker": "DECK",
+      "name": "Deckers Outdoor Corporation",
+      "price": 90.13,
+      "ema12": 95.25,
+      "pct": -5.38,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 414.26,
+      "ema12": 436.59,
+      "pct": -5.12,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company (The)",
+      "price": 21.17,
+      "ema12": 22.31,
+      "pct": -5.1,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "price": 140.21,
+      "ema12": 147.62,
       "pct": -5.02,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-14T20:56:35.651Z",
+  "lastUpdated": "2026-08-17T14:02:52.187Z",
   "source": "github-actions"
 }
