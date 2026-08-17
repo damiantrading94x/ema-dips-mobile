@@ -3,84 +3,92 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 45.65,
-      "ema12": 67.13,
-      "pct": -32,
+      "price": 45.38,
+      "ema12": 67.09,
+      "pct": -32.36,
       "bucket": "30%+"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.36,
-      "ema12": 15.22,
-      "pct": -12.25,
+      "price": 13.4,
+      "ema12": 15.23,
+      "pct": -12.03,
       "bucket": "10-15%"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 128.28,
-      "ema12": 145.24,
-      "pct": -11.68,
+      "price": 128.35,
+      "ema12": 145.25,
+      "pct": -11.63,
       "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 308.62,
-      "ema12": 344.22,
-      "pct": -10.34,
-      "bucket": "10-15%"
+      "price": 310.03,
+      "ema12": 344.44,
+      "pct": -9.99,
+      "bucket": "5-10%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 177.6,
-      "ema12": 192.6,
-      "pct": -7.79,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "MOS",
-      "name": "Mosaic Company (The)",
-      "price": 20.91,
-      "ema12": 22.27,
-      "pct": -6.12,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "PODD",
-      "name": "Insulet Corporation",
-      "price": 139.3,
-      "ema12": 147.48,
-      "pct": -5.54,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "NKE",
-      "name": "Nike, Inc.",
-      "price": 38.99,
-      "ema12": 41.19,
-      "pct": -5.33,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "ARE",
-      "name": "Alexandria Real Estate Equities",
-      "price": 46.22,
-      "ema12": 48.76,
-      "pct": -5.21,
+      "price": 177.05,
+      "ema12": 192.52,
+      "pct": -8.03,
       "bucket": "5-10%"
     },
     {
       "ticker": "VRSK",
       "name": "Verisk Analytics, Inc.",
-      "price": 176.67,
-      "ema12": 186.03,
-      "pct": -5.03,
+      "price": 175.07,
+      "ema12": 185.79,
+      "pct": -5.77,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "price": 139.73,
+      "ema12": 147.54,
+      "pct": -5.29,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "DECK",
+      "name": "Deckers Outdoor Corporation",
+      "price": 90.35,
+      "ema12": 95.29,
+      "pct": -5.18,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CHRW",
+      "name": "C.H. Robinson Worldwide, Inc.",
+      "price": 144.59,
+      "ema12": 152.43,
+      "pct": -5.14,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "MOS",
+      "name": "Mosaic Company (The)",
+      "price": 21.19,
+      "ema12": 22.31,
+      "pct": -5.02,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "EBAY",
+      "name": "eBay Inc.",
+      "price": 101.25,
+      "ema12": 106.59,
+      "pct": -5.01,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-17T17:25:54.707Z",
+  "lastUpdated": "2026-08-17T19:16:19.537Z",
   "source": "github-actions"
 }
