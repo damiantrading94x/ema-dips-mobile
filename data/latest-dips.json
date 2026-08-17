@@ -3,76 +3,92 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 45.5,
-      "ema12": 67.11,
-      "pct": -32.2,
+      "price": 45.74,
+      "ema12": 67.14,
+      "pct": -31.88,
       "bucket": "30%+"
-    },
-    {
-      "ticker": "TPR",
-      "name": "Tapestry, Inc.",
-      "price": 128.66,
-      "ema12": 145.3,
-      "pct": -11.45,
-      "bucket": "10-15%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.53,
-      "ema12": 15.25,
-      "pct": -11.29,
+      "price": 13.5,
+      "ema12": 15.24,
+      "pct": -11.46,
+      "bucket": "10-15%"
+    },
+    {
+      "ticker": "TPR",
+      "name": "Tapestry, Inc.",
+      "price": 129.73,
+      "ema12": 145.46,
+      "pct": -10.81,
       "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 312.94,
-      "ema12": 344.89,
-      "pct": -9.26,
+      "price": 311.05,
+      "ema12": 344.6,
+      "pct": -9.74,
       "bucket": "5-10%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 177.51,
-      "ema12": 192.59,
-      "pct": -7.83,
+      "price": 177.84,
+      "ema12": 192.64,
+      "pct": -7.68,
       "bucket": "5-10%"
     },
     {
       "ticker": "MOS",
       "name": "Mosaic Company (The)",
-      "price": 21.01,
-      "ema12": 22.28,
-      "pct": -5.73,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "LII",
-      "name": "Lennox International, Inc.",
-      "price": 413.6,
-      "ema12": 436.49,
-      "pct": -5.24,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "VRSK",
-      "name": "Verisk Analytics, Inc.",
-      "price": 176.43,
-      "ema12": 186,
-      "pct": -5.14,
+      "price": 20.9,
+      "ema12": 22.27,
+      "pct": -6.16,
       "bucket": "5-10%"
     },
     {
       "ticker": "ARE",
       "name": "Alexandria Real Estate Equities",
-      "price": 46.31,
-      "ema12": 48.78,
-      "pct": -5.06,
+      "price": 46.19,
+      "ema12": 48.76,
+      "pct": -5.27,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 413.58,
+      "ema12": 436.49,
+      "pct": -5.25,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "NKE",
+      "name": "Nike, Inc.",
+      "price": 39.1,
+      "ema12": 41.21,
+      "pct": -5.11,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "VRSK",
+      "name": "Verisk Analytics, Inc.",
+      "price": 176.52,
+      "ema12": 186.01,
+      "pct": -5.1,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "PODD",
+      "name": "Insulet Corporation",
+      "price": 140.09,
+      "ema12": 147.6,
+      "pct": -5.09,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-17T15:50:21.154Z",
+  "lastUpdated": "2026-08-17T16:26:02.914Z",
   "source": "github-actions"
 }
