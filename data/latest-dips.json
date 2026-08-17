@@ -3,60 +3,76 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 45.84,
-      "ema12": 67.16,
-      "pct": -31.74,
+      "price": 45.81,
+      "ema12": 67.15,
+      "pct": -31.78,
       "bucket": "30%+"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 128.44,
-      "ema12": 145.26,
-      "pct": -11.58,
+      "price": 128.74,
+      "ema12": 145.31,
+      "pct": -11.4,
       "bucket": "10-15%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.62,
-      "ema12": 15.26,
-      "pct": -10.78,
+      "price": 13.54,
+      "ema12": 15.25,
+      "pct": -11.21,
       "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 315.91,
-      "ema12": 345.35,
-      "pct": -8.52,
+      "price": 315.56,
+      "ema12": 345.29,
+      "pct": -8.61,
       "bucket": "5-10%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 177.84,
-      "ema12": 192.64,
-      "pct": -7.68,
+      "price": 177.43,
+      "ema12": 192.57,
+      "pct": -7.86,
       "bucket": "5-10%"
     },
     {
       "ticker": "MOS",
       "name": "Mosaic Company (The)",
-      "price": 21.08,
+      "price": 21.03,
       "ema12": 22.29,
-      "pct": -5.47,
+      "pct": -5.64,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 413.54,
+      "ema12": 436.48,
+      "pct": -5.26,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "VRSK",
+      "name": "Verisk Analytics, Inc.",
+      "price": 176.4,
+      "ema12": 185.99,
+      "pct": -5.16,
       "bucket": "5-10%"
     },
     {
       "ticker": "DECK",
       "name": "Deckers Outdoor Corporation",
-      "price": 90.46,
-      "ema12": 95.3,
-      "pct": -5.08,
+      "price": 90.52,
+      "ema12": 95.31,
+      "pct": -5.03,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-17T14:54:33.301Z",
+  "lastUpdated": "2026-08-17T15:23:50.671Z",
   "source": "github-actions"
 }
