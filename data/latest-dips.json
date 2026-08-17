@@ -3,76 +3,76 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 45.81,
-      "ema12": 67.15,
-      "pct": -31.78,
+      "price": 45.5,
+      "ema12": 67.11,
+      "pct": -32.2,
       "bucket": "30%+"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 128.74,
-      "ema12": 145.31,
-      "pct": -11.4,
+      "price": 128.66,
+      "ema12": 145.3,
+      "pct": -11.45,
       "bucket": "10-15%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.54,
+      "price": 13.53,
       "ema12": 15.25,
-      "pct": -11.21,
+      "pct": -11.29,
       "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 315.56,
-      "ema12": 345.29,
-      "pct": -8.61,
+      "price": 312.94,
+      "ema12": 344.89,
+      "pct": -9.26,
       "bucket": "5-10%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 177.43,
-      "ema12": 192.57,
-      "pct": -7.86,
+      "price": 177.51,
+      "ema12": 192.59,
+      "pct": -7.83,
       "bucket": "5-10%"
     },
     {
       "ticker": "MOS",
       "name": "Mosaic Company (The)",
-      "price": 21.03,
-      "ema12": 22.29,
-      "pct": -5.64,
+      "price": 21.01,
+      "ema12": 22.28,
+      "pct": -5.73,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 413.54,
-      "ema12": 436.48,
-      "pct": -5.26,
+      "price": 413.6,
+      "ema12": 436.49,
+      "pct": -5.24,
       "bucket": "5-10%"
     },
     {
       "ticker": "VRSK",
       "name": "Verisk Analytics, Inc.",
-      "price": 176.4,
-      "ema12": 185.99,
-      "pct": -5.16,
+      "price": 176.43,
+      "ema12": 186,
+      "pct": -5.14,
       "bucket": "5-10%"
     },
     {
-      "ticker": "DECK",
-      "name": "Deckers Outdoor Corporation",
-      "price": 90.52,
-      "ema12": 95.31,
-      "pct": -5.03,
+      "ticker": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "price": 46.31,
+      "ema12": 48.78,
+      "pct": -5.06,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-17T15:23:50.671Z",
+  "lastUpdated": "2026-08-17T15:50:21.154Z",
   "source": "github-actions"
 }
