@@ -3,9 +3,9 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 47.36,
-      "ema12": 64.07,
-      "pct": -26.09,
+      "price": 47.35,
+      "ema12": 64.08,
+      "pct": -26.11,
       "bucket": "25-30%"
     },
     {
@@ -19,76 +19,68 @@
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 311.54,
-      "ema12": 339.63,
-      "pct": -8.27,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "ALAB",
-      "name": "Astera Labs, Inc.",
-      "price": 294.42,
-      "ema12": 316.34,
-      "pct": -6.93,
+      "price": 312.33,
+      "ema12": 339.76,
+      "pct": -8.07,
       "bucket": "5-10%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 177.19,
-      "ema12": 189.98,
-      "pct": -6.73,
+      "price": 177.43,
+      "ema12": 190.02,
+      "pct": -6.62,
       "bucket": "5-10%"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 134.42,
-      "ema12": 143.67,
-      "pct": -6.44,
+      "price": 134.43,
+      "ema12": 143.52,
+      "pct": -6.34,
       "bucket": "5-10%"
     },
     {
       "ticker": "NCLH",
       "name": "Norwegian Cruise Line Holdings ",
-      "price": 17.84,
+      "price": 17.83,
       "ema12": 18.91,
-      "pct": -5.66,
+      "pct": -5.71,
       "bucket": "5-10%"
     },
     {
-      "ticker": "ON",
-      "name": "ON Semiconductor Corporation",
-      "price": 77.33,
-      "ema12": 81.6,
-      "pct": -5.23,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc.",
-      "price": 380.69,
-      "ema12": 401.51,
-      "pct": -5.19,
+      "ticker": "ALAB",
+      "name": "Astera Labs, Inc.",
+      "price": 299.78,
+      "ema12": 317.16,
+      "pct": -5.48,
       "bucket": "5-10%"
     },
     {
       "ticker": "META",
       "name": "Meta Platforms, Inc.",
-      "price": 552.27,
-      "ema12": 582.5,
-      "pct": -5.19,
+      "price": 550.54,
+      "ema12": 582.23,
+      "pct": -5.44,
       "bucket": "5-10%"
     },
     {
-      "ticker": "LUV",
-      "name": "Southwest Airlines Company",
-      "price": 42.74,
-      "ema12": 45.01,
-      "pct": -5.04,
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 411.71,
+      "ema12": 435.19,
+      "pct": -5.4,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "price": 381.13,
+      "ema12": 401.58,
+      "pct": -5.09,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-18T16:29:28.442Z",
+  "lastUpdated": "2026-08-18T17:00:13.158Z",
   "source": "github-actions"
 }
