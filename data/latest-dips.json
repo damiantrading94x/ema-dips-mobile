@@ -89,14 +89,6 @@
       "bucket": "5-10%"
     },
     {
-      "ticker": "LII",
-      "name": "Lennox International, Inc.",
-      "price": 411.05,
-      "ema12": 435.09,
-      "pct": -5.52,
-      "bucket": "5-10%"
-    },
-    {
       "ticker": "LUV",
       "name": "Southwest Airlines Company",
       "price": 42.49,
@@ -124,8 +116,8 @@
       "ticker": "ARE",
       "name": "Alexandria Real Estate Equities",
       "price": 45.84,
-      "ema12": 48.41,
-      "pct": -5.3,
+      "ema12": 48.4,
+      "pct": -5.29,
       "bucket": "5-10%"
     },
     {
@@ -135,8 +127,16 @@
       "ema12": 94.37,
       "pct": -5.15,
       "bucket": "5-10%"
+    },
+    {
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 411.05,
+      "ema12": 432.91,
+      "pct": -5.05,
+      "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-18T20:19:17.186Z",
+  "lastUpdated": "2026-08-18T20:49:00.462Z",
   "source": "github-actions"
 }
