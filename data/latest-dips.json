@@ -3,100 +3,108 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 45.52,
-      "ema12": 67.11,
-      "pct": -32.17,
-      "bucket": "30%+"
+      "price": 46.75,
+      "ema12": 63.98,
+      "pct": -26.93,
+      "bucket": "25-30%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.4,
-      "ema12": 15.23,
-      "pct": -12,
-      "bucket": "10-15%"
-    },
-    {
-      "ticker": "TPR",
-      "name": "Tapestry, Inc.",
-      "price": 129.02,
-      "ema12": 145.35,
-      "pct": -11.24,
+      "price": 13.6,
+      "ema12": 15.26,
+      "pct": -10.89,
       "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 311.98,
-      "ema12": 344.74,
-      "pct": -9.5,
+      "price": 312.47,
+      "ema12": 344.82,
+      "pct": -9.38,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "TPR",
+      "name": "Tapestry, Inc.",
+      "price": 134.59,
+      "ema12": 146.21,
+      "pct": -7.95,
       "bucket": "5-10%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 176.7,
-      "ema12": 192.46,
-      "pct": -8.19,
+      "price": 178.65,
+      "ema12": 192.76,
+      "pct": -7.32,
       "bucket": "5-10%"
     },
     {
-      "ticker": "VRSK",
-      "name": "Verisk Analytics, Inc.",
-      "price": 175.62,
-      "ema12": 185.87,
-      "pct": -5.52,
+      "ticker": "META",
+      "name": "Meta Platforms, Inc.",
+      "price": 547.5,
+      "ema12": 584.69,
+      "pct": -6.36,
       "bucket": "5-10%"
     },
     {
-      "ticker": "DECK",
-      "name": "Deckers Outdoor Corporation",
-      "price": 90.11,
-      "ema12": 95.25,
-      "pct": -5.4,
+      "ticker": "NCLH",
+      "name": "Norwegian Cruise Line Holdings ",
+      "price": 17.85,
+      "ema12": 19.05,
+      "pct": -6.35,
       "bucket": "5-10%"
     },
     {
-      "ticker": "PODD",
-      "name": "Insulet Corporation",
-      "price": 139.7,
-      "ema12": 147.54,
-      "pct": -5.31,
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 411.12,
+      "ema12": 438.69,
+      "pct": -6.28,
       "bucket": "5-10%"
     },
     {
-      "ticker": "EBAY",
-      "name": "eBay Inc.",
-      "price": 100.94,
-      "ema12": 106.54,
-      "pct": -5.26,
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "price": 379.38,
+      "ema12": 403.29,
+      "pct": -5.93,
       "bucket": "5-10%"
     },
     {
-      "ticker": "ULTA",
-      "name": "Ulta Beauty, Inc.",
-      "price": 493.33,
-      "ema12": 520.13,
-      "pct": -5.15,
+      "ticker": "ALAB",
+      "name": "Astera Labs, Inc.",
+      "price": 299.31,
+      "ema12": 317.11,
+      "pct": -5.61,
       "bucket": "5-10%"
     },
     {
-      "ticker": "NKE",
-      "name": "Nike, Inc.",
-      "price": 39.09,
-      "ema12": 41.2,
-      "pct": -5.13,
+      "ticker": "LUV",
+      "name": "Southwest Airlines Company",
+      "price": 42.8,
+      "ema12": 45.33,
+      "pct": -5.59,
       "bucket": "5-10%"
     },
     {
       "ticker": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 144.78,
-      "ema12": 152.46,
-      "pct": -5.03,
+      "price": 144.29,
+      "ema12": 152.38,
+      "pct": -5.31,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana Co.",
+      "price": 66.47,
+      "ema12": 70.1,
+      "pct": -5.18,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-17T20:53:38.518Z",
+  "lastUpdated": "2026-08-18T14:07:35.754Z",
   "source": "github-actions"
 }
