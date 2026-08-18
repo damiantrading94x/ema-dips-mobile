@@ -3,9 +3,9 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 46.78,
-      "ema12": 63.99,
-      "pct": -26.89,
+      "price": 47,
+      "ema12": 64.02,
+      "pct": -26.59,
       "bucket": "25-30%"
     },
     {
@@ -19,92 +19,92 @@
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 314.27,
-      "ema12": 345.09,
-      "pct": -8.93,
+      "price": 311.89,
+      "ema12": 344.73,
+      "pct": -9.53,
       "bucket": "5-10%"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 134.72,
-      "ema12": 146.23,
-      "pct": -7.87,
+      "price": 134.87,
+      "ema12": 146.25,
+      "pct": -7.78,
       "bucket": "5-10%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 178.83,
-      "ema12": 192.79,
-      "pct": -7.24,
+      "price": 178.12,
+      "ema12": 192.68,
+      "pct": -7.56,
       "bucket": "5-10%"
     },
     {
       "ticker": "NCLH",
       "name": "Norwegian Cruise Line Holdings ",
-      "price": 17.84,
-      "ema12": 19.05,
-      "pct": -6.37,
+      "price": 17.76,
+      "ema12": 19.04,
+      "pct": -6.75,
       "bucket": "5-10%"
     },
     {
       "ticker": "META",
       "name": "Meta Platforms, Inc.",
-      "price": 547.51,
-      "ema12": 584.7,
-      "pct": -6.36,
+      "price": 547.38,
+      "ema12": 584.68,
+      "pct": -6.38,
       "bucket": "5-10%"
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc.",
-      "price": 377.86,
-      "ema12": 403.05,
-      "pct": -6.25,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "ALAB",
-      "name": "Astera Labs, Inc.",
-      "price": 298.24,
-      "ema12": 316.95,
-      "pct": -5.9,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CVNA",
-      "name": "Carvana Co.",
-      "price": 65.98,
-      "ema12": 70.02,
-      "pct": -5.78,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CHRW",
-      "name": "C.H. Robinson Worldwide, Inc.",
-      "price": 144.3,
-      "ema12": 153.06,
-      "pct": -5.72,
+      "price": 379.29,
+      "ema12": 403.27,
+      "pct": -5.95,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 411.5,
-      "ema12": 436.17,
-      "pct": -5.66,
+      "price": 410.61,
+      "ema12": 436.03,
+      "pct": -5.83,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana Co.",
+      "price": 66.14,
+      "ema12": 70.05,
+      "pct": -5.58,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "ALAB",
+      "name": "Astera Labs, Inc.",
+      "price": 299.85,
+      "ema12": 317.19,
+      "pct": -5.47,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "price": 46.09,
+      "ema12": 48.74,
+      "pct": -5.44,
       "bucket": "5-10%"
     },
     {
       "ticker": "LUV",
       "name": "Southwest Airlines Company",
-      "price": 43.01,
+      "price": 43.06,
       "ema12": 45.37,
-      "pct": -5.19,
+      "pct": -5.1,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-18T14:16:36.506Z",
+  "lastUpdated": "2026-08-18T14:32:16.150Z",
   "source": "github-actions"
 }
