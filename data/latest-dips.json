@@ -3,40 +3,48 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 47.36,
-      "ema12": 64.08,
-      "pct": -26.1,
+      "price": 47.41,
+      "ema12": 64.09,
+      "pct": -26.03,
       "bucket": "25-30%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.45,
-      "ema12": 14.95,
-      "pct": -10.08,
+      "price": 13.34,
+      "ema12": 14.94,
+      "pct": -10.7,
       "bucket": "10-15%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 310.72,
-      "ema12": 339.51,
-      "pct": -8.48,
+      "price": 309.35,
+      "ema12": 339.3,
+      "pct": -8.83,
       "bucket": "5-10%"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 133.51,
-      "ema12": 143.53,
-      "pct": -6.98,
+      "price": 133.05,
+      "ema12": 143.31,
+      "pct": -7.16,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CVNA",
+      "name": "Carvana Co.",
+      "price": 65.18,
+      "ema12": 69.81,
+      "pct": -6.64,
       "bucket": "5-10%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
-      "price": 177.91,
-      "ema12": 190.22,
+      "price": 177.93,
+      "ema12": 190.23,
       "pct": -6.47,
       "bucket": "5-10%"
     },
@@ -51,41 +59,49 @@
     {
       "ticker": "META",
       "name": "Meta Platforms, Inc.",
-      "price": 545.01,
-      "ema12": 581.38,
-      "pct": -6.26,
+      "price": 544.74,
+      "ema12": 581.34,
+      "pct": -6.3,
       "bucket": "5-10%"
     },
     {
       "ticker": "NCLH",
       "name": "Norwegian Cruise Line Holdings ",
-      "price": 17.77,
-      "ema12": 18.9,
-      "pct": -5.96,
+      "price": 17.72,
+      "ema12": 18.89,
+      "pct": -6.21,
       "bucket": "5-10%"
     },
     {
-      "ticker": "CVNA",
-      "name": "Carvana Co.",
-      "price": 65.96,
-      "ema12": 69.93,
-      "pct": -5.68,
+      "ticker": "NRG",
+      "name": "NRG Energy, Inc.",
+      "price": 115.22,
+      "ema12": 122.38,
+      "pct": -5.85,
       "bucket": "5-10%"
     },
     {
-      "ticker": "LUV",
-      "name": "Southwest Airlines Company",
-      "price": 42.52,
-      "ema12": 44.97,
-      "pct": -5.46,
+      "ticker": "BLDR",
+      "name": "Builders FirstSource, Inc.",
+      "price": 67.87,
+      "ema12": 71.97,
+      "pct": -5.7,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "LII",
+      "name": "Lennox International, Inc.",
+      "price": 410.45,
+      "ema12": 435,
+      "pct": -5.64,
       "bucket": "5-10%"
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc.",
-      "price": 379.52,
-      "ema12": 401.33,
-      "pct": -5.43,
+      "price": 379.09,
+      "ema12": 401.26,
+      "pct": -5.53,
       "bucket": "5-10%"
     },
     {
@@ -97,30 +113,30 @@
       "bucket": "5-10%"
     },
     {
-      "ticker": "NRG",
-      "name": "NRG Energy, Inc.",
-      "price": 116.07,
-      "ema12": 122.52,
-      "pct": -5.26,
+      "ticker": "LUV",
+      "name": "Southwest Airlines Company",
+      "price": 42.58,
+      "ema12": 44.98,
+      "pct": -5.35,
       "bucket": "5-10%"
     },
     {
-      "ticker": "BLDR",
-      "name": "Builders FirstSource, Inc.",
-      "price": 68.2,
-      "ema12": 71.88,
-      "pct": -5.11,
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "price": 307.09,
+      "ema12": 323.99,
+      "pct": -5.22,
       "bucket": "5-10%"
     },
     {
-      "ticker": "LII",
-      "name": "Lennox International, Inc.",
-      "price": 410.76,
-      "ema12": 432.86,
-      "pct": -5.11,
+      "ticker": "ARE",
+      "name": "Alexandria Real Estate Equities",
+      "price": 45.9,
+      "ema12": 48.41,
+      "pct": -5.2,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-18T19:26:53.037Z",
+  "lastUpdated": "2026-08-18T19:49:48.015Z",
   "source": "github-actions"
 }
