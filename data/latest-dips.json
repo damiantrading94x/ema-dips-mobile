@@ -4,7 +4,7 @@
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
       "price": 47.43,
-      "ema12": 61.52,
+      "ema12": 61.51,
       "pct": -22.9,
       "bucket": "20-25%"
     },
@@ -20,8 +20,8 @@
       "ticker": "STLD",
       "name": "Steel Dynamics, Inc.",
       "price": 231.01,
-      "ema12": 253.18,
-      "pct": -8.76,
+      "ema12": 253.32,
+      "pct": -8.81,
       "bucket": "5-10%"
     },
     {
@@ -52,8 +52,8 @@
       "ticker": "Q",
       "name": "Qnity Electronics, Inc.",
       "price": 126.04,
-      "ema12": 136.08,
-      "pct": -7.38,
+      "ema12": 135.87,
+      "pct": -7.24,
       "bucket": "5-10%"
     },
     {
@@ -76,8 +76,8 @@
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
       "price": 131.72,
-      "ema12": 141.42,
-      "pct": -6.86,
+      "ema12": 141.55,
+      "pct": -6.94,
       "bucket": "5-10%"
     },
     {
@@ -100,7 +100,7 @@
       "ticker": "JBL",
       "name": "Jabil Inc.",
       "price": 322.77,
-      "ema12": 344.11,
+      "ema12": 344.1,
       "pct": -6.2,
       "bucket": "5-10%"
     },
@@ -108,16 +108,8 @@
       "ticker": "NUE",
       "name": "Nucor Corporation",
       "price": 248.74,
-      "ema12": 264.52,
-      "pct": -5.96,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "KEYS",
-      "name": "Keysight Technologies Inc.",
-      "price": 319.45,
-      "ema12": 339.57,
-      "pct": -5.93,
+      "ema12": 264.53,
+      "pct": -5.97,
       "bucket": "5-10%"
     },
     {
@@ -140,16 +132,24 @@
       "ticker": "UAL",
       "name": "United Airlines Holdings, Inc.",
       "price": 115.78,
-      "ema12": 122.98,
-      "pct": -5.85,
+      "ema12": 122.96,
+      "pct": -5.84,
       "bucket": "5-10%"
     },
     {
       "ticker": "DVA",
       "name": "DaVita Inc.",
       "price": 177.27,
-      "ema12": 188.12,
-      "pct": -5.77,
+      "ema12": 188.23,
+      "pct": -5.82,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "KEYS",
+      "name": "Keysight Technologies Inc.",
+      "price": 319.45,
+      "ema12": 338.87,
+      "pct": -5.73,
       "bucket": "5-10%"
     },
     {
@@ -164,8 +164,8 @@
       "ticker": "TJX",
       "name": "TJX Companies, Inc. (The)",
       "price": 144.5,
-      "ema12": 153.04,
-      "pct": -5.58,
+      "ema12": 153.06,
+      "pct": -5.59,
       "bucket": "5-10%"
     },
     {
@@ -209,22 +209,22 @@
       "bucket": "5-10%"
     },
     {
-      "ticker": "ALGN",
-      "name": "Align Technology, Inc.",
-      "price": 163.04,
-      "ema12": 172.01,
-      "pct": -5.21,
-      "bucket": "5-10%"
-    },
-    {
       "ticker": "META",
       "name": "Meta Platforms, Inc.",
       "price": 546.03,
       "ema12": 575.77,
       "pct": -5.17,
       "bucket": "5-10%"
+    },
+    {
+      "ticker": "ALGN",
+      "name": "Align Technology, Inc.",
+      "price": 163.04,
+      "ema12": 171.87,
+      "pct": -5.14,
+      "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-19T20:22:26.531Z",
+  "lastUpdated": "2026-08-19T20:53:55.121Z",
   "source": "github-actions"
 }
