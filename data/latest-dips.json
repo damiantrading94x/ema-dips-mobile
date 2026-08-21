@@ -3,152 +3,144 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 47.56,
-      "ema12": 54.9,
-      "pct": -13.37,
+      "price": 47.64,
+      "ema12": 54.91,
+      "pct": -13.25,
       "bucket": "10-15%"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "price": 188.35,
-      "ema12": 204.81,
-      "pct": -8.03,
-      "bucket": "5-10%"
     },
     {
       "ticker": "APP",
       "name": "Applovin Corporation",
-      "price": 301.62,
-      "ema12": 326.2,
-      "pct": -7.53,
+      "price": 300.61,
+      "ema12": 326.04,
+      "pct": -7.8,
       "bucket": "5-10%"
     },
     {
-      "ticker": "WMT",
-      "name": "Walmart Inc.",
-      "price": 102.75,
-      "ema12": 110.91,
-      "pct": -7.36,
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "price": 189.34,
+      "ema12": 204.96,
+      "pct": -7.62,
       "bucket": "5-10%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.28,
+      "price": 13.23,
       "ema12": 14.32,
-      "pct": -7.33,
+      "pct": -7.6,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "WMT",
+      "name": "Walmart Inc.",
+      "price": 102.5,
+      "ema12": 110.87,
+      "pct": -7.55,
       "bucket": "5-10%"
     },
     {
       "ticker": "ALAB",
       "name": "Astera Labs, Inc.",
-      "price": 283.34,
-      "ema12": 305.73,
-      "pct": -7.32,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "JBL",
-      "name": "Jabil Inc.",
-      "price": 312.54,
-      "ema12": 335.67,
-      "pct": -6.89,
+      "price": 283.67,
+      "ema12": 305.78,
+      "pct": -7.23,
       "bucket": "5-10%"
     },
     {
       "ticker": "LUV",
       "name": "Southwest Airlines Company",
-      "price": 40.23,
+      "price": 40.24,
       "ema12": 43.19,
-      "pct": -6.85,
+      "pct": -6.82,
       "bucket": "5-10%"
     },
     {
-      "ticker": "INTC",
-      "name": "Intel Corporation",
-      "price": 90.1,
-      "ema12": 96.44,
-      "pct": -6.57,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "KEYS",
-      "name": "Keysight Technologies Inc.",
-      "price": 311.17,
-      "ema12": 332.3,
-      "pct": -6.36,
+      "ticker": "JBL",
+      "name": "Jabil Inc.",
+      "price": 313.74,
+      "ema12": 335.85,
+      "pct": -6.59,
       "bucket": "5-10%"
     },
     {
       "ticker": "STLD",
       "name": "Steel Dynamics, Inc.",
-      "price": 229.65,
-      "ema12": 245.21,
-      "pct": -6.35,
+      "price": 229.07,
+      "ema12": 245.12,
+      "pct": -6.55,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "KEYS",
+      "name": "Keysight Technologies Inc.",
+      "price": 311.34,
+      "ema12": 332.33,
+      "pct": -6.32,
       "bucket": "5-10%"
     },
     {
       "ticker": "TJX",
       "name": "TJX Companies, Inc. (The)",
-      "price": 140.13,
-      "ema12": 149.46,
-      "pct": -6.24,
+      "price": 140.38,
+      "ema12": 149.5,
+      "pct": -6.1,
       "bucket": "5-10%"
     },
     {
-      "ticker": "ON",
-      "name": "ON Semiconductor Corporation",
-      "price": 74.33,
-      "ema12": 79.23,
-      "pct": -6.18,
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "price": 90.73,
+      "ema12": 96.53,
+      "pct": -6.01,
       "bucket": "5-10%"
     },
     {
-      "ticker": "ALGN",
-      "name": "Align Technology, Inc.",
-      "price": 157.94,
-      "ema12": 168.05,
-      "pct": -6.02,
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "price": 292.09,
+      "ema12": 310.58,
+      "pct": -5.95,
       "bucket": "5-10%"
     },
     {
       "ticker": "UAL",
       "name": "United Airlines Holdings, Inc.",
-      "price": 112.82,
-      "ema12": 119.94,
-      "pct": -5.93,
+      "price": 112.92,
+      "ema12": 119.95,
+      "pct": -5.86,
       "bucket": "5-10%"
     },
     {
-      "ticker": "KLAC",
-      "name": "KLA Corporation",
-      "price": 182.87,
-      "ema12": 194.31,
-      "pct": -5.89,
+      "ticker": "ALGN",
+      "name": "Align Technology, Inc.",
+      "price": 158.47,
+      "ema12": 168.13,
+      "pct": -5.74,
       "bucket": "5-10%"
     },
     {
-      "ticker": "TER",
-      "name": "Teradyne, Inc.",
-      "price": 365.93,
-      "ema12": 388.49,
-      "pct": -5.81,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CCL",
-      "name": "Carnival Corporation Ltd.",
-      "price": 25.6,
-      "ema12": 27.11,
-      "pct": -5.57,
+      "ticker": "ON",
+      "name": "ON Semiconductor Corporation",
+      "price": 74.81,
+      "ema12": 79.3,
+      "pct": -5.67,
       "bucket": "5-10%"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
-      "price": 130.69,
-      "ema12": 138.35,
+      "price": 130.52,
+      "ema12": 138.33,
+      "pct": -5.64,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CCL",
+      "name": "Carnival Corporation Ltd.",
+      "price": 25.61,
+      "ema12": 27.11,
       "pct": -5.54,
       "bucket": "5-10%"
     },
@@ -161,54 +153,30 @@
       "bucket": "5-10%"
     },
     {
-      "ticker": "AKAM",
-      "name": "Akamai Technologies, Inc.",
-      "price": 110.02,
-      "ema12": 116.17,
-      "pct": -5.3,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "NCLH",
-      "name": "Norwegian Cruise Line Holdings ",
-      "price": 17.22,
-      "ema12": 18.17,
+      "ticker": "DDOG",
+      "name": "Datadog, Inc.",
+      "price": 231.27,
+      "ema12": 244.17,
       "pct": -5.28,
       "bucket": "5-10%"
     },
     {
-      "ticker": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "price": 485.8,
-      "ema12": 512.83,
-      "pct": -5.27,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "DDOG",
-      "name": "Datadog, Inc.",
-      "price": 231.33,
-      "ema12": 244.18,
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "price": 184.3,
+      "ema12": 194.53,
       "pct": -5.26,
       "bucket": "5-10%"
     },
     {
-      "ticker": "COHR",
-      "name": "Coherent Corp.",
-      "price": 294.68,
-      "ema12": 310.98,
-      "pct": -5.24,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "VRT",
-      "name": "Vertiv Holdings, LLC",
-      "price": 258.65,
-      "ema12": 272.73,
-      "pct": -5.17,
+      "ticker": "AKAM",
+      "name": "Akamai Technologies, Inc.",
+      "price": 110.22,
+      "ema12": 116.2,
+      "pct": -5.15,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-21T14:18:14.266Z",
+  "lastUpdated": "2026-08-21T14:34:01.853Z",
   "source": "github-actions"
 }
