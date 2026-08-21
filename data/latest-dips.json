@@ -3,180 +3,188 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 47.75,
-      "ema12": 54.93,
-      "pct": -13.07,
+      "price": 47.95,
+      "ema12": 54.96,
+      "pct": -12.76,
       "bucket": "10-15%"
-    },
-    {
-      "ticker": "COHR",
-      "name": "Coherent Corp.",
-      "price": 284.56,
-      "ema12": 309.42,
-      "pct": -8.04,
-      "bucket": "5-10%"
     },
     {
       "ticker": "WMT",
       "name": "Walmart Inc.",
-      "price": 102.91,
-      "ema12": 110.93,
-      "pct": -7.24,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "TTD",
-      "name": "The Trade Desk, Inc.",
-      "price": 13.3,
-      "ema12": 14.33,
-      "pct": -7.18,
+      "price": 102.65,
+      "ema12": 110.89,
+      "pct": -7.44,
       "bucket": "5-10%"
     },
     {
       "ticker": "ALAB",
       "name": "Astera Labs, Inc.",
-      "price": 283.9,
-      "ema12": 305.82,
+      "price": 283.09,
+      "ema12": 305.69,
+      "pct": -7.39,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "price": 190.23,
+      "ema12": 205.09,
+      "pct": -7.25,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "price": 287.59,
+      "ema12": 309.89,
+      "pct": -7.2,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "STLD",
+      "name": "Steel Dynamics, Inc.",
+      "price": 227.3,
+      "ema12": 244.85,
       "pct": -7.17,
       "bucket": "5-10%"
     },
     {
       "ticker": "LUV",
       "name": "Southwest Airlines Company",
-      "price": 40.11,
+      "price": 40.12,
       "ema12": 43.17,
-      "pct": -7.08,
+      "pct": -7.06,
       "bucket": "5-10%"
     },
     {
-      "ticker": "APP",
-      "name": "Applovin Corporation",
-      "price": 303.56,
-      "ema12": 326.5,
-      "pct": -7.03,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "STLD",
-      "name": "Steel Dynamics, Inc.",
-      "price": 228.36,
-      "ema12": 245.01,
-      "pct": -6.8,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "price": 191.57,
-      "ema12": 205.3,
-      "pct": -6.69,
+      "ticker": "TTD",
+      "name": "The Trade Desk, Inc.",
+      "price": 13.36,
+      "ema12": 14.34,
+      "pct": -6.85,
       "bucket": "5-10%"
     },
     {
       "ticker": "ON",
       "name": "ON Semiconductor Corporation",
-      "price": 73.86,
-      "ema12": 79.15,
-      "pct": -6.69,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "JBL",
-      "name": "Jabil Inc.",
-      "price": 313.35,
-      "ema12": 335.79,
-      "pct": -6.68,
+      "price": 73.74,
+      "ema12": 79.14,
+      "pct": -6.82,
       "bucket": "5-10%"
     },
     {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 90.14,
+      "price": 90.11,
       "ema12": 96.44,
+      "pct": -6.56,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "APP",
+      "name": "Applovin Corporation",
+      "price": 305.44,
+      "ema12": 326.79,
       "pct": -6.53,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "JBL",
+      "name": "Jabil Inc.",
+      "price": 314.19,
+      "ema12": 335.92,
+      "pct": -6.47,
       "bucket": "5-10%"
     },
     {
       "ticker": "UAL",
       "name": "United Airlines Holdings, Inc.",
-      "price": 112.84,
-      "ema12": 119.94,
-      "pct": -5.92,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "KEYS",
-      "name": "Keysight Technologies Inc.",
-      "price": 313.22,
-      "ema12": 332.62,
-      "pct": -5.83,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "TJX",
-      "name": "TJX Companies, Inc. (The)",
-      "price": 141.01,
-      "ema12": 149.59,
-      "pct": -5.74,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "TPR",
-      "name": "Tapestry, Inc.",
-      "price": 130.38,
-      "ema12": 138.3,
-      "pct": -5.73,
+      "price": 112.6,
+      "ema12": 119.9,
+      "pct": -6.09,
       "bucket": "5-10%"
     },
     {
       "ticker": "KLAC",
       "name": "KLA Corporation",
-      "price": 183.33,
-      "ema12": 194.38,
-      "pct": -5.68,
+      "price": 182.98,
+      "ema12": 194.32,
+      "pct": -5.84,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "TJX",
+      "name": "TJX Companies, Inc. (The)",
+      "price": 140.99,
+      "ema12": 149.59,
+      "pct": -5.75,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "TPR",
+      "name": "Tapestry, Inc.",
+      "price": 130.4,
+      "ema12": 138.31,
+      "pct": -5.72,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "KEYS",
+      "name": "Keysight Technologies Inc.",
+      "price": 313.92,
+      "ema12": 332.73,
+      "pct": -5.65,
       "bucket": "5-10%"
     },
     {
       "ticker": "NUE",
       "name": "Nucor Corporation",
-      "price": 243.78,
-      "ema12": 258.21,
-      "pct": -5.59,
+      "price": 243.92,
+      "ema12": 258.23,
+      "pct": -5.54,
       "bucket": "5-10%"
     },
     {
       "ticker": "CCL",
       "name": "Carnival Corporation Ltd.",
-      "price": 25.64,
-      "ema12": 27.11,
-      "pct": -5.43,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "NCLH",
-      "name": "Norwegian Cruise Line Holdings ",
-      "price": 17.22,
-      "ema12": 18.17,
-      "pct": -5.28,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "AMAT",
-      "name": "Applied Materials, Inc.",
-      "price": 486.88,
-      "ema12": 513,
-      "pct": -5.09,
+      "price": 25.68,
+      "ema12": 27.12,
+      "pct": -5.31,
       "bucket": "5-10%"
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc.",
-      "price": 367.64,
-      "ema12": 387.06,
+      "price": 366.54,
+      "ema12": 386.89,
+      "pct": -5.26,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "NCLH",
+      "name": "Norwegian Cruise Line Holdings ",
+      "price": 17.23,
+      "ema12": 18.18,
+      "pct": -5.23,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "DVA",
+      "name": "DaVita Inc.",
+      "price": 175.13,
+      "ema12": 184.52,
+      "pct": -5.09,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "price": 487.3,
+      "ema12": 513.06,
       "pct": -5.02,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-21T16:32:34.168Z",
+  "lastUpdated": "2026-08-21T17:06:50.868Z",
   "source": "github-actions"
 }
