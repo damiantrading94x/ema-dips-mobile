@@ -3,172 +3,148 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 48.97,
-      "ema12": 53.24,
-      "pct": -8.01,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "WDC",
-      "name": "Western Digital Corporation",
-      "price": 436,
-      "ema12": 468.37,
-      "pct": -6.91,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "JBL",
-      "name": "Jabil Inc.",
-      "price": 305.06,
-      "ema12": 327.03,
-      "pct": -6.72,
+      "price": 48.92,
+      "ema12": 53.23,
+      "pct": -8.1,
       "bucket": "5-10%"
     },
     {
       "ticker": "AKAM",
       "name": "Akamai Technologies, Inc.",
-      "price": 105.71,
-      "ema12": 113.24,
-      "pct": -6.65,
+      "price": 105.17,
+      "ema12": 113.15,
+      "pct": -7.05,
       "bucket": "5-10%"
     },
     {
       "ticker": "ON",
       "name": "ON Semiconductor Corporation",
-      "price": 72.18,
-      "ema12": 77.18,
-      "pct": -6.48,
+      "price": 71.92,
+      "ema12": 77.14,
+      "pct": -6.77,
       "bucket": "5-10%"
     },
     {
-      "ticker": "HII",
-      "name": "Huntington Ingalls Industries, ",
-      "price": 287.25,
-      "ema12": 306.67,
-      "pct": -6.33,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "price": 188.12,
-      "ema12": 200.8,
-      "pct": -6.31,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel Corporation",
-      "price": 88.09,
-      "ema12": 93.95,
-      "pct": -6.25,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "DDOG",
-      "name": "Datadog, Inc.",
-      "price": 225.07,
-      "ema12": 239.32,
-      "pct": -5.95,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "COHR",
-      "name": "Coherent Corp.",
-      "price": 284.27,
-      "ema12": 301.68,
-      "pct": -5.77,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "ALAB",
-      "name": "Astera Labs, Inc.",
-      "price": 281.33,
-      "ema12": 298.49,
-      "pct": -5.75,
+      "ticker": "JBL",
+      "name": "Jabil Inc.",
+      "price": 306,
+      "ema12": 327.17,
+      "pct": -6.47,
       "bucket": "5-10%"
     },
     {
       "ticker": "PWR",
       "name": "Quanta Services, Inc.",
-      "price": 618.5,
-      "ema12": 655.81,
-      "pct": -5.69,
+      "price": 614.78,
+      "ema12": 655.23,
+      "pct": -6.17,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "price": 188.64,
+      "ema12": 200.88,
+      "pct": -6.09,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "price": 88.54,
+      "ema12": 94.02,
+      "pct": -5.83,
       "bucket": "5-10%"
     },
     {
       "ticker": "LII",
       "name": "Lennox International, Inc.",
-      "price": 391.71,
-      "ema12": 415.29,
-      "pct": -5.68,
+      "price": 391.19,
+      "ema12": 415.21,
+      "pct": -5.78,
       "bucket": "5-10%"
     },
     {
-      "ticker": "CMI",
-      "name": "Cummins Inc.",
-      "price": 572.16,
-      "ema12": 606.4,
-      "pct": -5.65,
+      "ticker": "WDC",
+      "name": "Western Digital Corporation",
+      "price": 442.56,
+      "ema12": 469.38,
+      "pct": -5.71,
       "bucket": "5-10%"
     },
     {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc.",
-      "price": 357.73,
-      "ema12": 378.95,
-      "pct": -5.6,
+      "ticker": "HII",
+      "name": "Huntington Ingalls Industries, ",
+      "price": 289.54,
+      "ema12": 307.03,
+      "pct": -5.7,
       "bucket": "5-10%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.23,
+      "price": 13.22,
       "ema12": 14.01,
-      "pct": -5.59,
+      "pct": -5.64,
       "bucket": "5-10%"
     },
     {
-      "ticker": "FIX",
-      "name": "Comfort Systems USA, Inc.",
-      "price": 1592.93,
-      "ema12": 1684.73,
-      "pct": -5.45,
+      "ticker": "CMI",
+      "name": "Cummins Inc.",
+      "price": 573.12,
+      "ema12": 606.54,
+      "pct": -5.51,
       "bucket": "5-10%"
     },
     {
-      "ticker": "STX",
-      "name": "Seagate Technology Holdings PLC",
-      "price": 807.68,
-      "ema12": 852.44,
-      "pct": -5.25,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "APTV",
-      "name": "Aptiv PLC",
-      "price": 46.18,
-      "ema12": 48.69,
-      "pct": -5.16,
+      "ticker": "DDOG",
+      "name": "Datadog, Inc.",
+      "price": 226.59,
+      "ema12": 239.55,
+      "pct": -5.41,
       "bucket": "5-10%"
     },
     {
       "ticker": "FSLR",
       "name": "First Solar, Inc.",
-      "price": 207,
-      "ema12": 218.18,
-      "pct": -5.13,
+      "price": 206.44,
+      "ema12": 218.1,
+      "pct": -5.34,
       "bucket": "5-10%"
     },
     {
-      "ticker": "TER",
-      "name": "Teradyne, Inc.",
-      "price": 363.52,
-      "ema12": 382.66,
-      "pct": -5,
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "price": 286.1,
+      "ema12": 301.96,
+      "pct": -5.25,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "FIX",
+      "name": "Comfort Systems USA, Inc.",
+      "price": 1597.87,
+      "ema12": 1685.49,
+      "pct": -5.2,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "APTV",
+      "name": "Aptiv PLC",
+      "price": 46.19,
+      "ema12": 48.69,
+      "pct": -5.14,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "price": 360.35,
+      "ema12": 379.36,
+      "pct": -5.01,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-25T14:43:36.799Z",
+  "lastUpdated": "2026-08-25T15:28:36.755Z",
   "source": "github-actions"
 }
