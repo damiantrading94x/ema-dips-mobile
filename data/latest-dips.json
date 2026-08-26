@@ -3,68 +3,52 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 48.47,
-      "ema12": 52.47,
-      "pct": -7.63,
+      "price": 48.55,
+      "ema12": 52.48,
+      "pct": -7.5,
       "bucket": "5-10%"
     },
     {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 85.84,
-      "ema12": 92.63,
-      "pct": -7.33,
+      "price": 86.53,
+      "ema12": 92.73,
+      "pct": -6.69,
       "bucket": "5-10%"
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc.",
-      "price": 351.28,
-      "ema12": 374.57,
-      "pct": -6.22,
+      "price": 351.85,
+      "ema12": 374.65,
+      "pct": -6.09,
       "bucket": "5-10%"
     },
     {
       "ticker": "PWR",
       "name": "Quanta Services, Inc.",
-      "price": 610.01,
-      "ema12": 646.85,
-      "pct": -5.69,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "TER",
-      "name": "Teradyne, Inc.",
-      "price": 358.59,
-      "ema12": 379.34,
-      "pct": -5.47,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "price": 187.81,
-      "ema12": 198.44,
-      "pct": -5.36,
+      "price": 607.84,
+      "ema12": 646.51,
+      "pct": -5.98,
       "bucket": "5-10%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.15,
-      "ema12": 13.88,
-      "pct": -5.25,
+      "price": 13.07,
+      "ema12": 13.87,
+      "pct": -5.78,
       "bucket": "5-10%"
     },
     {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks, Inc.",
-      "price": 337.89,
-      "ema12": 356.08,
-      "pct": -5.11,
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "price": 188.07,
+      "ema12": 198.48,
+      "pct": -5.25,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-26T14:24:50.720Z",
+  "lastUpdated": "2026-08-26T14:43:15.322Z",
   "source": "github-actions"
 }
