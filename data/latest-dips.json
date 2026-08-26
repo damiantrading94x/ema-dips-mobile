@@ -3,52 +3,68 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 48.55,
-      "ema12": 52.48,
-      "pct": -7.5,
+      "price": 48.25,
+      "ema12": 52.44,
+      "pct": -7.99,
       "bucket": "5-10%"
     },
     {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 86.53,
-      "ema12": 92.73,
-      "pct": -6.69,
+      "price": 86.61,
+      "ema12": 92.74,
+      "pct": -6.61,
       "bucket": "5-10%"
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc.",
-      "price": 351.85,
-      "ema12": 374.65,
-      "pct": -6.09,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "PWR",
-      "name": "Quanta Services, Inc.",
-      "price": 607.84,
-      "ema12": 646.51,
-      "pct": -5.98,
+      "price": 351.44,
+      "ema12": 374.59,
+      "pct": -6.18,
       "bucket": "5-10%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.07,
-      "ema12": 13.87,
-      "pct": -5.78,
+      "price": 13.02,
+      "ema12": 13.86,
+      "pct": -6.08,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services, Inc.",
+      "price": 610.06,
+      "ema12": 646.85,
+      "pct": -5.69,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "TJX",
+      "name": "TJX Companies, Inc. (The)",
+      "price": 137.13,
+      "ema12": 145.34,
+      "pct": -5.65,
       "bucket": "5-10%"
     },
     {
       "ticker": "CRWD",
       "name": "CrowdStrike Holdings, Inc.",
-      "price": 188.07,
-      "ema12": 198.48,
-      "pct": -5.25,
+      "price": 187.27,
+      "ema12": 198.36,
+      "pct": -5.59,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "FSLR",
+      "name": "First Solar, Inc.",
+      "price": 204.94,
+      "ema12": 216.12,
+      "pct": -5.17,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-26T14:43:15.322Z",
+  "lastUpdated": "2026-08-26T16:06:31.487Z",
   "source": "github-actions"
 }
