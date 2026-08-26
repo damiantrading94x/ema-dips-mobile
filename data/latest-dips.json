@@ -3,68 +3,68 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 48.56,
-      "ema12": 52.48,
-      "pct": -7.48,
+      "price": 48.47,
+      "ema12": 52.47,
+      "pct": -7.63,
       "bucket": "5-10%"
     },
     {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 86.33,
-      "ema12": 92.7,
-      "pct": -6.87,
+      "price": 85.84,
+      "ema12": 92.63,
+      "pct": -7.33,
       "bucket": "5-10%"
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc.",
-      "price": 352.54,
-      "ema12": 374.76,
-      "pct": -5.93,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "TJX",
-      "name": "TJX Companies, Inc. (The)",
-      "price": 137.86,
-      "ema12": 145.45,
-      "pct": -5.22,
+      "price": 351.28,
+      "ema12": 374.57,
+      "pct": -6.22,
       "bucket": "5-10%"
     },
     {
       "ticker": "PWR",
       "name": "Quanta Services, Inc.",
-      "price": 613.97,
-      "ema12": 647.45,
-      "pct": -5.17,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "AKAM",
-      "name": "Akamai Technologies, Inc.",
-      "price": 106.49,
-      "ema12": 112.2,
-      "pct": -5.09,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "price": 188.46,
-      "ema12": 198.54,
-      "pct": -5.08,
+      "price": 610.01,
+      "ema12": 646.85,
+      "pct": -5.69,
       "bucket": "5-10%"
     },
     {
       "ticker": "TER",
       "name": "Teradyne, Inc.",
-      "price": 360.33,
-      "ema12": 379.6,
-      "pct": -5.08,
+      "price": 358.59,
+      "ema12": 379.34,
+      "pct": -5.47,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "price": 187.81,
+      "ema12": 198.44,
+      "pct": -5.36,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "TTD",
+      "name": "The Trade Desk, Inc.",
+      "price": 13.15,
+      "ema12": 13.88,
+      "pct": -5.25,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "price": 337.89,
+      "ema12": 356.08,
+      "pct": -5.11,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-26T14:12:55.642Z",
+  "lastUpdated": "2026-08-26T14:24:50.720Z",
   "source": "github-actions"
 }
