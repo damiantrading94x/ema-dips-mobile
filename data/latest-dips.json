@@ -3,68 +3,68 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 48.25,
-      "ema12": 52.44,
-      "pct": -7.99,
+      "price": 48.18,
+      "ema12": 52.43,
+      "pct": -8.1,
       "bucket": "5-10%"
     },
     {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 86.61,
-      "ema12": 92.74,
-      "pct": -6.61,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc.",
-      "price": 351.44,
-      "ema12": 374.59,
-      "pct": -6.18,
+      "price": 87.06,
+      "ema12": 92.81,
+      "pct": -6.2,
       "bucket": "5-10%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.02,
+      "price": 13,
       "ema12": 13.86,
-      "pct": -6.08,
+      "pct": -6.18,
       "bucket": "5-10%"
     },
     {
-      "ticker": "PWR",
-      "name": "Quanta Services, Inc.",
-      "price": 610.06,
-      "ema12": 646.85,
-      "pct": -5.69,
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "price": 351.61,
+      "ema12": 374.62,
+      "pct": -6.14,
       "bucket": "5-10%"
     },
     {
       "ticker": "TJX",
       "name": "TJX Companies, Inc. (The)",
-      "price": 137.13,
-      "ema12": 145.34,
-      "pct": -5.65,
+      "price": 137.11,
+      "ema12": 145.33,
+      "pct": -5.66,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services, Inc.",
+      "price": 612.42,
+      "ema12": 647.22,
+      "pct": -5.38,
       "bucket": "5-10%"
     },
     {
       "ticker": "CRWD",
       "name": "CrowdStrike Holdings, Inc.",
-      "price": 187.27,
-      "ema12": 198.36,
-      "pct": -5.59,
+      "price": 187.98,
+      "ema12": 198.47,
+      "pct": -5.28,
       "bucket": "5-10%"
     },
     {
-      "ticker": "FSLR",
-      "name": "First Solar, Inc.",
-      "price": 204.94,
-      "ema12": 216.12,
-      "pct": -5.17,
+      "ticker": "PANW",
+      "name": "Palo Alto Networks, Inc.",
+      "price": 337.3,
+      "ema12": 355.99,
+      "pct": -5.25,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-26T16:06:31.487Z",
+  "lastUpdated": "2026-08-26T16:59:32.435Z",
   "source": "github-actions"
 }
