@@ -3,164 +3,68 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 48.73,
-      "ema12": 53.2,
-      "pct": -8.4,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "PWR",
-      "name": "Quanta Services, Inc.",
-      "price": 603.78,
-      "ema12": 653.54,
-      "pct": -7.61,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "price": 185.38,
-      "ema12": 200.37,
+      "price": 48.56,
+      "ema12": 52.48,
       "pct": -7.48,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "FIX",
-      "name": "Comfort Systems USA, Inc.",
-      "price": 1561.96,
-      "ema12": 1679.97,
-      "pct": -7.02,
       "bucket": "5-10%"
     },
     {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 87.48,
-      "ema12": 93.86,
-      "pct": -6.8,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "DDOG",
-      "name": "Datadog, Inc.",
-      "price": 222.99,
-      "ema12": 239,
-      "pct": -6.7,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "AKAM",
-      "name": "Akamai Technologies, Inc.",
-      "price": 105.74,
-      "ema12": 113.24,
-      "pct": -6.62,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "EME",
-      "name": "EMCOR Group, Inc.",
-      "price": 739.87,
-      "ema12": 791.64,
-      "pct": -6.54,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "LII",
-      "name": "Lennox International, Inc.",
-      "price": 389.06,
-      "ema12": 414.88,
-      "pct": -6.22,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "ON",
-      "name": "ON Semiconductor Corporation",
-      "price": 72.51,
-      "ema12": 77.23,
-      "pct": -6.11,
+      "price": 86.33,
+      "ema12": 92.7,
+      "pct": -6.87,
       "bucket": "5-10%"
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc.",
-      "price": 356.74,
-      "ema12": 378.8,
-      "pct": -5.82,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "GEV",
-      "name": "GE Vernova Inc.",
-      "price": 926.73,
-      "ema12": 983.93,
-      "pct": -5.81,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "JBL",
-      "name": "Jabil Inc.",
-      "price": 308.68,
-      "ema12": 327.58,
-      "pct": -5.77,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CMI",
-      "name": "Cummins Inc.",
-      "price": 572.67,
-      "ema12": 606.47,
-      "pct": -5.57,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "TTD",
-      "name": "The Trade Desk, Inc.",
-      "price": 13.25,
-      "ema12": 14.01,
-      "pct": -5.43,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks, Inc.",
-      "price": 339.9,
-      "ema12": 359.39,
-      "pct": -5.42,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "ALAB",
-      "name": "Astera Labs, Inc.",
-      "price": 282.65,
-      "ema12": 298.69,
-      "pct": -5.37,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "HII",
-      "name": "Huntington Ingalls Industries, ",
-      "price": 291.15,
-      "ema12": 307.27,
-      "pct": -5.25,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "FSLR",
-      "name": "First Solar, Inc.",
-      "price": 206.82,
-      "ema12": 218.16,
-      "pct": -5.2,
+      "price": 352.54,
+      "ema12": 374.76,
+      "pct": -5.93,
       "bucket": "5-10%"
     },
     {
       "ticker": "TJX",
       "name": "TJX Companies, Inc. (The)",
-      "price": 139.48,
-      "ema12": 146.83,
-      "pct": -5.01,
+      "price": 137.86,
+      "ema12": 145.45,
+      "pct": -5.22,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services, Inc.",
+      "price": 613.97,
+      "ema12": 647.45,
+      "pct": -5.17,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "AKAM",
+      "name": "Akamai Technologies, Inc.",
+      "price": 106.49,
+      "ema12": 112.2,
+      "pct": -5.09,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CRWD",
+      "name": "CrowdStrike Holdings, Inc.",
+      "price": 188.46,
+      "ema12": 198.54,
+      "pct": -5.08,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "TER",
+      "name": "Teradyne, Inc.",
+      "price": 360.33,
+      "ema12": 379.6,
+      "pct": -5.08,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-25T20:55:35.231Z",
+  "lastUpdated": "2026-08-26T14:12:55.642Z",
   "source": "github-actions"
 }
