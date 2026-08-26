@@ -3,68 +3,44 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 48.18,
-      "ema12": 52.43,
-      "pct": -8.1,
+      "price": 48.04,
+      "ema12": 52.4,
+      "pct": -8.34,
       "bucket": "5-10%"
     },
     {
       "ticker": "INTC",
       "name": "Intel Corporation",
-      "price": 87.06,
-      "ema12": 92.81,
-      "pct": -6.2,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "TTD",
-      "name": "The Trade Desk, Inc.",
-      "price": 13,
-      "ema12": 13.86,
-      "pct": -6.18,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "AVGO",
-      "name": "Broadcom Inc.",
-      "price": 351.61,
-      "ema12": 374.62,
-      "pct": -6.14,
+      "price": 87.43,
+      "ema12": 92.87,
+      "pct": -5.85,
       "bucket": "5-10%"
     },
     {
       "ticker": "TJX",
       "name": "TJX Companies, Inc. (The)",
-      "price": 137.11,
+      "price": 137.1,
       "ema12": 145.33,
       "pct": -5.66,
       "bucket": "5-10%"
     },
     {
-      "ticker": "PWR",
-      "name": "Quanta Services, Inc.",
-      "price": 612.42,
-      "ema12": 647.22,
-      "pct": -5.38,
+      "ticker": "TTD",
+      "name": "The Trade Desk, Inc.",
+      "price": 13.1,
+      "ema12": 13.87,
+      "pct": -5.59,
       "bucket": "5-10%"
     },
     {
-      "ticker": "CRWD",
-      "name": "CrowdStrike Holdings, Inc.",
-      "price": 187.98,
-      "ema12": 198.47,
-      "pct": -5.28,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "PANW",
-      "name": "Palo Alto Networks, Inc.",
-      "price": 337.3,
-      "ema12": 355.99,
-      "pct": -5.25,
+      "ticker": "AVGO",
+      "name": "Broadcom Inc.",
+      "price": 354.41,
+      "ema12": 375.05,
+      "pct": -5.5,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-26T16:59:32.435Z",
+  "lastUpdated": "2026-08-26T19:12:09.076Z",
   "source": "github-actions"
 }
