@@ -3,44 +3,44 @@
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 48.04,
-      "ema12": 52.4,
-      "pct": -8.34,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "INTC",
-      "name": "Intel Corporation",
-      "price": 87.43,
-      "ema12": 92.87,
-      "pct": -5.85,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "TJX",
-      "name": "TJX Companies, Inc. (The)",
-      "price": 137.1,
-      "ema12": 145.33,
-      "pct": -5.66,
+      "price": 47.81,
+      "ema12": 52.37,
+      "pct": -8.71,
       "bucket": "5-10%"
     },
     {
       "ticker": "TTD",
       "name": "The Trade Desk, Inc.",
-      "price": 13.1,
-      "ema12": 13.87,
-      "pct": -5.59,
+      "price": 13.03,
+      "ema12": 13.86,
+      "pct": -5.99,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "TJX",
+      "name": "TJX Companies, Inc. (The)",
+      "price": 136.83,
+      "ema12": 145.29,
+      "pct": -5.82,
       "bucket": "5-10%"
     },
     {
       "ticker": "AVGO",
       "name": "Broadcom Inc.",
-      "price": 354.41,
-      "ema12": 375.05,
-      "pct": -5.5,
+      "price": 355.59,
+      "ema12": 375.23,
+      "pct": -5.23,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "INTC",
+      "name": "Intel Corporation",
+      "price": 88.24,
+      "ema12": 92.99,
+      "pct": -5.11,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-26T19:12:09.076Z",
+  "lastUpdated": "2026-08-26T22:08:51.704Z",
   "source": "github-actions"
 }
