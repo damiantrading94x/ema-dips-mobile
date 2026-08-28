@@ -1,46 +1,166 @@
 {
   "stocks": [
     {
+      "ticker": "PYPL",
+      "name": "PayPal Holdings, Inc.",
+      "price": 53.66,
+      "ema12": 59.89,
+      "pct": -10.4,
+      "bucket": "10-15%"
+    },
+    {
+      "ticker": "GNRC",
+      "name": "Generac Holdlings Inc.",
+      "price": 183.8,
+      "ema12": 203.42,
+      "pct": -9.64,
+      "bucket": "5-10%"
+    },
+    {
       "ticker": "HRL",
       "name": "Hormel Foods Corporation",
-      "price": 21.28,
-      "ema12": 23.36,
-      "pct": -8.92,
+      "price": 21.57,
+      "ema12": 23.41,
+      "pct": -7.85,
       "bucket": "5-10%"
     },
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
-      "price": 46.7,
-      "ema12": 50.76,
-      "pct": -8,
+      "price": 46.86,
+      "ema12": 50.78,
+      "pct": -7.73,
       "bucket": "5-10%"
     },
     {
-      "ticker": "TPR",
-      "name": "Tapestry, Inc.",
-      "price": 123.24,
-      "ema12": 131.88,
-      "pct": -6.55,
+      "ticker": "FIX",
+      "name": "Comfort Systems USA, Inc.",
+      "price": 1518.73,
+      "ema12": 1639.62,
+      "pct": -7.37,
       "bucket": "5-10%"
     },
     {
       "ticker": "CASY",
       "name": "Caseys General Stores, Inc.",
-      "price": 763.38,
-      "ema12": 816.17,
-      "pct": -6.47,
+      "price": 755.47,
+      "ema12": 814.96,
+      "pct": -7.3,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "Q",
+      "name": "Qnity Electronics, Inc.",
+      "price": 120.26,
+      "ema12": 129,
+      "pct": -6.77,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "AMAT",
+      "name": "Applied Materials, Inc.",
+      "price": 461.67,
+      "ema12": 492.47,
+      "pct": -6.25,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "KLAC",
+      "name": "KLA Corporation",
+      "price": 175.54,
+      "ema12": 186.94,
+      "pct": -6.1,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "PCG",
+      "name": "Pacific Gas & Electric Co.",
+      "price": 16.6,
+      "ema12": 17.67,
+      "pct": -6.06,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "COHR",
+      "name": "Coherent Corp.",
+      "price": 279.2,
+      "ema12": 296.96,
+      "pct": -5.98,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "MRVL",
+      "name": "Marvell Technology, Inc.",
+      "price": 216.62,
+      "ema12": 230.16,
+      "pct": -5.88,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "JBL",
+      "name": "Jabil Inc.",
+      "price": 301.45,
+      "ema12": 319.73,
+      "pct": -5.72,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "GEV",
+      "name": "GE Vernova Inc.",
+      "price": 911.93,
+      "ema12": 965.53,
+      "pct": -5.55,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "PWR",
+      "name": "Quanta Services, Inc.",
+      "price": 602.7,
+      "ema12": 637.54,
+      "pct": -5.46,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "TER",
+      "name": "Teradyne, Inc.",
+      "price": 354.97,
+      "ema12": 375.14,
+      "pct": -5.38,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "CCL",
+      "name": "Carnival Corporation Ltd.",
+      "price": 24.76,
+      "ema12": 26.11,
+      "pct": -5.16,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "NBIS",
+      "name": "Nebius Group N.V.",
+      "price": 209.18,
+      "ema12": 220.43,
+      "pct": -5.1,
+      "bucket": "5-10%"
+    },
+    {
+      "ticker": "TPR",
+      "name": "Tapestry, Inc.",
+      "price": 125.49,
+      "ema12": 132.22,
+      "pct": -5.09,
       "bucket": "5-10%"
     },
     {
       "ticker": "TJX",
       "name": "TJX Companies, Inc. (The)",
-      "price": 134.22,
-      "ema12": 142.15,
-      "pct": -5.58,
+      "price": 135.12,
+      "ema12": 142.28,
+      "pct": -5.04,
       "bucket": "5-10%"
     }
   ],
-  "lastUpdated": "2026-08-28T04:00:53.186Z",
+  "lastUpdated": "2026-08-28T23:09:49.645Z",
   "source": "github-actions"
 }
