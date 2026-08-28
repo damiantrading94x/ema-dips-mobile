@@ -4,107 +4,43 @@
       "ticker": "HRL",
       "name": "Hormel Foods Corporation",
       "price": 21.28,
-      "ema12": 23.74,
-      "pct": -10.37,
-      "bucket": "10-15%"
+      "ema12": 23.36,
+      "pct": -8.92,
+      "bucket": "5-10%"
     },
     {
       "ticker": "MNST",
       "name": "Monster Beverage Corporation",
       "price": 46.7,
-      "ema12": 51.5,
-      "pct": -9.32,
+      "ema12": 50.76,
+      "pct": -8,
       "bucket": "5-10%"
     },
     {
       "ticker": "TPR",
       "name": "Tapestry, Inc.",
       "price": 123.24,
-      "ema12": 133.45,
-      "pct": -7.65,
+      "ema12": 131.88,
+      "pct": -6.55,
       "bucket": "5-10%"
     },
     {
       "ticker": "CASY",
       "name": "Caseys General Stores, Inc.",
       "price": 763.38,
-      "ema12": 825.77,
-      "pct": -7.56,
+      "ema12": 816.17,
+      "pct": -6.47,
       "bucket": "5-10%"
     },
     {
       "ticker": "TJX",
       "name": "TJX Companies, Inc. (The)",
       "price": 134.22,
-      "ema12": 143.59,
-      "pct": -6.52,
+      "ema12": 142.15,
+      "pct": -5.58,
       "bucket": "5-10%"
-    },
-    {
-      "ticker": "NCLH",
-      "name": "Norwegian Cruise Line Holdings ",
-      "price": 16.65,
-      "ema12": 17.61,
-      "pct": -5.46,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "WYNN",
-      "name": "Wynn Resorts, Limited",
-      "price": 93.61,
-      "ema12": 98.97,
-      "pct": -5.41,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "CCL",
-      "name": "Carnival Corporation Ltd.",
-      "price": 24.95,
-      "ema12": 26.35,
-      "pct": -5.32,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "RL",
-      "name": "Ralph Lauren Corporation",
-      "price": 351.9,
-      "ema12": 371.5,
-      "pct": -5.27,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "BSX",
-      "name": "Boston Scientific Corporation",
-      "price": 46.67,
-      "ema12": 49.24,
-      "pct": -5.21,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "APTV",
-      "name": "Aptiv PLC",
-      "price": 45.44,
-      "ema12": 47.93,
-      "pct": -5.19,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "DECK",
-      "name": "Deckers Outdoor Corporation",
-      "price": 86.33,
-      "ema12": 90.92,
-      "pct": -5.05,
-      "bucket": "5-10%"
-    },
-    {
-      "ticker": "LUV",
-      "name": "Southwest Airlines Company",
-      "price": 39.76,
-      "ema12": 41.85,
-      "pct": -5,
-      "bucket": "0-5%"
     }
   ],
-  "lastUpdated": "2026-08-27T23:37:04.363Z",
+  "lastUpdated": "2026-08-28T04:00:53.186Z",
   "source": "github-actions"
 }
